@@ -29,14 +29,14 @@
 	@media(prefers-color-scheme: light){
 		:root{
 			font-size: 16px;
-			text-align: center;
+			text-align: left;
 			color: black;
 		}
 	}
 	@media(prefers-color-scheme: dark){
 		:root{
 			font-size: 16px;
-			text-align: center;
+			text-align: left;
 			color: white;
 		}
 	}
