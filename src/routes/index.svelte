@@ -42,5 +42,6 @@
 	}
 	.pad {
 		padding: 8px;
+		text-align: center;
 	}
 </style>
