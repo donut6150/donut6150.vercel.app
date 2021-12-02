@@ -46,10 +46,9 @@
 	footer {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+		justify-content: stretch;
+		align-items: stretch;
 		padding: 40px;
-		left: -50%;
 	}
 
 	@media (min-width: 480px) {
