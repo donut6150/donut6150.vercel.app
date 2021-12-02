@@ -50,6 +50,7 @@
 		align-items: center;
 		padding: 40px;
 		max-width: 250px;
+		left: -50%;
 	}
 
 	@media (min-width: 480px) {
