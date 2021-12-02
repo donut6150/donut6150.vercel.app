@@ -49,7 +49,6 @@
 		justify-content: center;
 		align-items: center;
 		padding: 40px;
-		max-width: 250px;
 		left: -50%;
 	}
 
