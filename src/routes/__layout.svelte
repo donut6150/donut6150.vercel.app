@@ -16,6 +16,14 @@
 		<Fluent.Expander>About me
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>13 y.o (pseudo?) developer learning C#, C++, JS, HTML, and CSS. Always open to friendly DMs.</Fluent.TextBlock>
+			<p></p>
+			<Fluent.TextBlock>You can find me here:
+				<ul>
+					<li>Discord - donut2008#7112</li>
+					<li>Telegram - @donut2008</li>
+					<li>GitHub - donut2008</li>
+				</ul>
+			</Fluent.TextBlock>
 		</svelte:fragment>
 	</Fluent.Expander>
 	</div>
