@@ -166,7 +166,7 @@
 		--fds-flyout-fallback-background-default: hsl(0, 0%, 98%);
 
 		/* Mica Background */
-		/* --fds-mica-background-base: linear-gradient(0deg, hsla(0, 0%, 95%, 0.5), hsla(0, 0%, 95%, 0.5)), hsl(0, 0%, 95%); */
+		--fds-mica-background-base: linear-gradient(0deg, hsla(0, 0%, 95%, 0.5), hsla(0, 0%, 95%, 0.5)), hsl(0, 0%, 95%);
 
 		/* Acrylic Background */
 		/* --fds-acrylic-background-default: url("NoiseAsset_256.png"), transparent, rgba(252, 252, 252, 85%); */
@@ -338,7 +338,7 @@
 		--fds-flyout-fallback-background-default: var(--fds-solid-background-quarternary);
 
 		/* Mica Background */
-		/* --fds-mica-background-base: linear-gradient(0deg, rgb(32, 32, 32, 0.8), rgb(32, 32, 32, 0.8)), #202020; */
+		--fds-mica-background-base: linear-gradient(0deg, rgb(32, 32, 32, 0.8), rgb(32, 32, 32, 0.8)), #202020;
 
 		/* Acrylic Background */
 		/* --fds-acrylic-background-default: url("NoiseAsset_256.png"), rgb(44, 44, 44, 96%), linear-gradient(0deg, rgb(44, 44, 44, 15%), rgb(44, 44, 44, 15%)); */
