@@ -53,7 +53,7 @@
 
 	@media (min-width: 480px) {
 		footer {
-			padding: 7px 40px 40px;
+			padding: 0px 40px 40px;
 		}
 	}
 </style>
