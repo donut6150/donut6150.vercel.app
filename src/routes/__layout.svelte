@@ -13,6 +13,13 @@
 
 <footer>
 	<div class="pad">
+		<Fluent.Expander>About me
+		<svelte:fragment slot="content">
+			<Fluent.TextBlock>13 y.o (pseudo?) developer learning C#, C++, JS, HTML, and CSS. Always open to friendly DMs.</Fluent.TextBlock>
+		</svelte:fragment>
+	</Fluent.Expander>
+	</div>
+	<div class="pad">
 		<Fluent.Expander>GitHub projects
 			<svelte:fragment slot="content">
 				<ul>
