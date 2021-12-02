@@ -23,8 +23,8 @@
 		<Fluent.Expander>GitHub projects
 			<svelte:fragment slot="content">
 				<ul>
-					<li><Fluent.Button variant="hyperlink" href="https://github.com/donut2008/Calculator" target="_blank" rel="noopener noreferrer">Calculator (DEPRECATED)</Fluent.Button></li>
-					<li><Fluent.Button variant="hyperlink" href="https://github.com/donut2008/NeonX" target="_blank" rel="noopener noreferrer">NeonX (forked)</Fluent.Button></li>
+					<li><Fluent.Button variant="hyperlink" href="https://github.com/donut2008/Calculator" target="_blank" rel="noopener noreferrer">Calculator</Fluent.Button></li>
+					<li><Fluent.Button variant="hyperlink" href="https://github.com/donut2008/NeonX" target="_blank" rel="noopener noreferrer">NeonX</Fluent.Button></li>
 				</ul>
 			</svelte:fragment>
 		</Fluent.Expander>
