@@ -15,7 +15,7 @@
 	<div class="pad">
 		<Fluent.Expander>About me
 		<svelte:fragment slot="content">
-			<Fluent.TextBlock>[unknown age] y.o (pseudo?) developer learning C#, C++, JS, HTML, and CSS. Always open to friendly DMs.</Fluent.TextBlock>
+			<Fluent.TextBlock>(Pseudo?) developer learning C#, C++, JS, HTML, and CSS. Always open to friendly DMs.</Fluent.TextBlock>
 			<p></p>
 			<Fluent.TextBlock>You can find me here:
 				<ul>
@@ -27,7 +27,7 @@
 		</svelte:fragment>
 	</Fluent.Expander>
 	</div>
-	<p></p>
+	<div class="pad"></div>
 	<div class="pad">
 		<Fluent.Expander>GitHub projects
 			<svelte:fragment slot="content">
