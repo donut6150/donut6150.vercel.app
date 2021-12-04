@@ -54,7 +54,4 @@
 		padding: 8px;
 		text-align: center;
 	}
-	.textalign {
-		text-align: center;
-	}
 </style>
