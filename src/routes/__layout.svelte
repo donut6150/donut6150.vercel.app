@@ -46,6 +46,7 @@
 					<li>Microsoft Lumia 540 running Windows 10 Mobile 1709</li>
 					<li>Logitech M185 wireless mouse</li>
 					<li>LG 32" 1080p TV from 2015</li>
+					<li>Sony MDR ZX110 headphones</li>
 				</ul>
 			</svelte:fragment>
 		</Fluent.Expander>
