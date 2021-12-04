@@ -52,7 +52,7 @@
 		</Fluent.Expander>
 	</div>
 	<p></p>
-	<div class="textalign">Huge thanks to <Fluent.Button variant="hyperlink" href="https://github.com/Tropix126/">Tropix126</Fluent.Button> and <Fluent.Button variant="hyperlink" href="https://github.com/TheOnlyTails">TheOnlyTails</Fluent.Button>. This website was possible thanks to their amazing work of porting Microsoft's Fluent UI to Svelte.<br>Check out the <Fluent.Button variant="hyperlink" href="https://github.com/Tropix126/fluent-svelte">repo</Fluent.Button>!</div>
+	<div class="textalign">Huge thanks to <a href="https://github.com/Tropix126/">Tropix126</a> and <a href="https://github.com/TheOnlyTails">TheOnlyTails</a>. This website was possible thanks to their amazing work of porting Microsoft's Fluent UI to Svelte.<br>Check out the <a href="https://github.com/Tropix126/fluent-svelte">repo</a>!</div>
 </footer>
 
 <style>
