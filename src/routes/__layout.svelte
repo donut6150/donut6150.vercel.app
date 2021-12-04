@@ -51,8 +51,20 @@
 			</svelte:fragment>
 		</Fluent.Expander>
 	</div>
+	<div class="pad">
+		<Fluent.Expander>Credits
+			<svelte:fragment slot="content">
+				<ul>
+					<li><Fluent.Button variant="hyperlink" href="https://github.com/Tropix126">Tropix126</Fluent.Button></li>
+					<li><Fluent.Button variant="hyperlink" href="https://github.com/TheOnlyTails">TheOnlyTails</Fluent.Button></li>
+				</ul>
+				<p></p>
+				Amazing thanks for porting Microsoft's Fluent UI to Svelte!
+			</svelte:fragment>
+		</Fluent.Expander>
+	</div>
 	<p></p>
-	<div class="textalign">Huge thanks to <Fluent.Button variant="hyperlink" href="https://github.com/Tropix126/">Tropix126</Fluent.Button> and <Fluent.Button variant="hyperlink" href="https://github.com/TheOnlyTails">TheOnlyTails.</Fluent.Button> This website was possible thanks to their amazing work of porting Microsoft's Fluent UI to Svelte.<br>Check out the <Fluent.Button variant="hyperlink" href="https://github.com/Tropix126/fluent-svelte">repo!</Fluent.Button></div>
+	<div class="textalign">This website was built using Svelte, a web framework.</div>
 </footer>
 
 <style>
