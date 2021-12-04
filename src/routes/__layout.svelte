@@ -27,7 +27,6 @@
 		</svelte:fragment>
 	</Fluent.Expander>
 	</div>
-	<div class="pad"></div>
 	<div class="pad">
 		<Fluent.Expander>GitHub projects
 			<svelte:fragment slot="content">
