@@ -41,7 +41,7 @@
 		<Fluent.Expander>Devices I have
 			<svelte:fragment slot="content">
 				<ul>
-					<li>HP 15s fr2006tu (laptop) running Windows 11 insider build 22509. Specifications:<br>11th gen Intel core i3 1115G4<br>8 GB DDR4 RAM<br>15.6 inch 1080p IPS display<br>512 GB NVMe SSD</li>
+					<li>HP 15s fr2006tu, specifications:<br>11th gen Intel core i3 1115G4<br>8 GB DDR4 RAM<br>15.6 inch 1080p IPS display<br>512 GB NVMe SSD</li>
 					<li>Samsung Galaxy M02 black (32/2 variant) running Android 11, rooted</li>
 					<li>Microsoft Lumia 540 running Windows 10 Mobile 1709</li>
 					<li>Logitech M185 wireless mouse</li>
