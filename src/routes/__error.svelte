@@ -13,7 +13,7 @@
 <footer>
 	<div class="pad">
         <div class="textalign">
-            <img src="./error.gif" alt="error">
+            <img src="https://github.com/donut2008/donut2008.vercel.app/blob/master/src/routes/error.gif" alt="error">
         </div>
         <h1 class="ctext">Whoops, there seems to be an error...</h1>
     </div>
