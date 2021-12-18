@@ -9,7 +9,7 @@
 		donut2008
 	</div>
 </svelte:head>
-<Header>donut2008</Header>
+<h1>donut2008</h1>
 <div class="pad ctext">
 	<Fluent.TextBlock>Welcome to donut2008's homepage!</Fluent.TextBlock>
 </div>
@@ -97,5 +97,8 @@
 	}
 	.ctext {
 		text-align: center;
+	}
+	h1 {
+		font-size: large;
 	}
 </style>
