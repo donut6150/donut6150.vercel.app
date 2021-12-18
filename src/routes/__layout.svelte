@@ -16,6 +16,21 @@
 </footer>
 
 <style>
+	@import url("https://unpkg.com/fluent-svelte/theme.css");
+	@media(prefers-color-scheme: light){
+		:root{
+			font-size: 16px;
+			text-align: left;
+			color: black;
+		}
+	}
+	@media(prefers-color-scheme: dark){
+		:root{
+			font-size: 16px;
+			text-align: left;
+			color: white;
+		}
+	}
 	main {
 		flex: 1;
 		display: flex;
