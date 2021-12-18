@@ -8,7 +8,7 @@
     <Fluent.TextBlock>Calculator written in C# with WinUI 2.7 controls</Fluent.TextBlock>
 </div>
 <div class="pad ctext">
-    <Fluent.Button variant="accent">Download latest build</Fluent.Button>
+    <Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v4.0.59/4.0.59-stable.zip">Download latest build</Fluent.Button>
     <Fluent.Button href="https://donut2008.github.io/Calculator/releases">View all releases</Fluent.Button>
 </div>
 <div class="pad">
