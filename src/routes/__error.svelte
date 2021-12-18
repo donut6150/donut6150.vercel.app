@@ -13,8 +13,9 @@
 <footer>
 	<div class="pad">
         <div class="textalign">
-            <img src="./src/routes/error.gif" alt="error">
+            <img src="./error.gif" alt="error">
         </div>
+        <h1 class="ctext">Whoops, there seems to be an error...</h1>
     </div>
 </footer>
 
@@ -43,5 +44,8 @@
 		footer {
 			padding: 0px 40px 40px;
 		}
+	}
+	h1 {
+		font-size: 40px;
 	}
 </style>
