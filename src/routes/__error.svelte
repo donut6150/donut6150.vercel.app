@@ -2,7 +2,7 @@
 	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
 	import * as Fluent from "fluent-svelte";
-</script>
+    </script>
 
 <Header />
 
@@ -16,6 +16,9 @@
             <img src="./error.gif" alt="error">
         </div>
         <h1 class="ctext">Whoops, there seems to be an error...</h1>
+    </div>
+    <div class="pad">
+        <Fluent.TextBlock>The requested page either does not exist, or didn't load correctly.</Fluent.TextBlock>
     </div>
 </footer>
 
