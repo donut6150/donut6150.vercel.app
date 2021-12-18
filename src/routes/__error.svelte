@@ -18,7 +18,9 @@
         <h1 class="ctext">Whoops, there seems to be an error...</h1>
     </div>
     <div class="pad">
+		<div class="ctext">
         <Fluent.TextBlock>The requested page either does not exist, or didn't load correctly.</Fluent.TextBlock>
+	</div>
     </div>
 </footer>
 
