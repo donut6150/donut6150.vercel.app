@@ -214,7 +214,7 @@
 		--fds-active-window-shadow: 0px 32px 64px hsla(0, 0%, 0%, 28%),
 			0px 2px 21px hsla(0, 0%, 0%, 22%);
 
-			background-color:var(--fds-mica-background-base);
+			background-color:var(--fds-solid-background-base);
 			font-family: var(--fds-font-family-text);
 	}
 }
@@ -385,7 +385,7 @@
 		--fds-active-window-shadow: 0px 32px 64px hsla(0, 0%, 0%, 0.56),
 			0px 2px 21px hsla(0, 0%, 0%, 0.55);
 
-		background-color: var(--fds-mica-background-base);
+		background-color: var(--fds-solid-background-base);
 		font-family: var(--fds-font-family-text);
 	}
 }
