@@ -7,8 +7,18 @@
 <div class="pad ctext">
     <Fluent.TextBlock>Webpage containing all the releases of donut's calculator</Fluent.TextBlock>
 </div>
-<div class="pad ctext">
-    <Fluent.Expander>test</Fluent.Expander>
+<div class="pad">
+    <Fluent.Expander>[PRE-RELEASE] 0.1 Alpha
+		<svelte:fragment slot="content">
+			<Fluent.TextBlock>The first release of this CLI calculator! Have fun :)</Fluent.TextBlock><br>
+			<Fluent.TextBlock>Known bugs:<ul><li>Typing "exit" in the "enter two numbers" area results in a loop</li></ul></Fluent.TextBlock>
+			<div class="ctext">
+				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v0.1-alpha/calc.zip">Download</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.1-alpha.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.1-alpha.tar.gz">Source code (tar.gz)</Fluent.Button>
+			</div>
+		</svelte:fragment>
+	</Fluent.Expander>
 </div>
 <style>
 	@import url("https://unpkg.com/fluent-svelte/theme.css");
