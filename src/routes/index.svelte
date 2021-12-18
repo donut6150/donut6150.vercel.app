@@ -69,7 +69,7 @@
 	</Fluent.Expander>
 </div>
 <p></p>
-<div class="textalign">This website was built using Svelte, a web framework.</div>
+<div class="textalign ctext">This website was built using Svelte, a web framework.</div>
 
 <style>
 	@import url("https://unpkg.com/fluent-svelte/theme.css");
@@ -94,6 +94,6 @@
 		text-align: center;
 	}
 	h1 {
-		font-size: large;
+		font-size: 40px;
 	}
 </style>
