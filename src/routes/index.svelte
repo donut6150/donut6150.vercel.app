@@ -10,10 +10,10 @@
 	</div>
 </svelte:head>
 <Header>donut2008</Header>
-<div class="pad">
+<div class="pad ctext">
 	<Fluent.TextBlock>Welcome to donut2008's homepage!</Fluent.TextBlock>
 </div>
-<div class="pad">
+<div class="pad ctext">
 <Fluent.Button variant="accent" href="https://github.com/donut2008" target="_blank" rel="noopener noreferrer">GitHub</Fluent.Button>
 &nbsp;
 <Fluent.Button variant="accent" href="https://t.me/donut2008" target="_blank" rel="noopener noreferrer">Telegram</Fluent.Button>
