@@ -13,7 +13,7 @@
 <footer>
 	<div class="pad">
         <div class="textalign">
-            <img src="https://cdn.discordapp.com/attachments/892316599661518872/921719723194978334/error.gif" alt="error" style="width:25%;height:25%;">
+            <img src="https://cdn.discordapp.com/attachments/892316599661518872/921788638554124308/error.ico" alt="error">
         </div>
         <h1 class="ctext">Whoops, there seems to be an error...</h1>
     </div>
