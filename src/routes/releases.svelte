@@ -8,7 +8,7 @@
     <Fluent.TextBlock>Webpage containing all the releases of donut's calculator</Fluent.TextBlock>
 </div>
 <div class="pad ctext">
-    <Fluent.Expander
+    <Fluent.Expander>test</Fluent.Expander>
 </div>
 <style>
 	@import url("https://unpkg.com/fluent-svelte/theme.css");
