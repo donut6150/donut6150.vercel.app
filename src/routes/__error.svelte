@@ -63,4 +63,7 @@
 	h1 {
 		font-size: 40px;
 	}
+    .ctext {
+		text-align: center;
+	}
 </style>
