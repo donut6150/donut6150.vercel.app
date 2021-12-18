@@ -4,8 +4,12 @@
 	import "fluent-svelte/theme.css";
 	let dialogOpen = false;
 </script>
+<svelte:head>
+	<div class="pad">
+		donut2008
+	</div>
+</svelte:head>
 <div class="pad">
-	<Header>donut2008</Header>
 	<Fluent.TextBlock>Welcome to donut2008's homepage!</Fluent.TextBlock>
 </div>
 <div class="pad">
@@ -36,8 +40,6 @@
 		</Fluent.TextBlock>
 	</svelte:fragment>
 </Fluent.Expander>
-</div>
-<div class="pad">
 	<Fluent.Expander>GitHub projects
 		<svelte:fragment slot="content">
 			<ul>
@@ -46,8 +48,6 @@
 			</ul>
 		</svelte:fragment>
 	</Fluent.Expander>
-</div>
-<div class="pad">
 	<Fluent.Expander>Devices I have
 		<svelte:fragment slot="content">
 			<ul>
@@ -60,8 +60,6 @@
 			</ul>
 		</svelte:fragment>
 	</Fluent.Expander>
-</div>
-<div class="pad">
 	<Fluent.Expander>Credits
 		<svelte:fragment slot="content">
 			<ul>
