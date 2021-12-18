@@ -27,6 +27,7 @@
 		<Fluent.Button variant="accent" on:click={() => { dialogOpen = false; }}>OK</Fluent.Button>
 	</svelte:fragment>
 </Fluent.ContentDialog>
+</div>
 <div class="pad">
 	<Fluent.Expander>About me
 	<svelte:fragment slot="content">
@@ -74,7 +75,6 @@
 </div>
 <p></p>
 <div class="textalign">This website was built using Svelte, a web framework.</div>
-</div>
 
 <style>
 	@import url("https://unpkg.com/fluent-svelte/theme.css");
