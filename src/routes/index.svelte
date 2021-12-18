@@ -4,9 +4,8 @@
 	import "fluent-svelte/theme.css";
 	let dialogOpen = false;
 </script>
-
-<Header>donut2008</Header>
 <div class="pad">
+	<Header>donut2008</Header>
 	<Fluent.TextBlock>Welcome to donut2008's homepage!</Fluent.TextBlock>
 </div>
 <div class="pad">
@@ -80,12 +79,6 @@
 
 <style>
 	@import url("https://unpkg.com/fluent-svelte/theme.css");
-
-	.head{
-		font-size: 50px;
-		text-align: center;
-		font-weight: bold;
-	}
 	@media(prefers-color-scheme: light){
 		:root{
 			font-size: 16px;

@@ -33,9 +33,6 @@
 		align-items: stretch;
 		padding: 40px;
 	}
-	.textalign {
-		text-align: center;
-	}
 	@media (min-width: 480px) {
 		footer {
 			padding: 0px 40px 40px;
