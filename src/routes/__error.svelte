@@ -13,7 +13,7 @@
 <footer>
 	<div class="pad">
         <div class="textalign">
-            <img src="src/routes/error.gif" alt="error">
+            <img src="/src/routes/error.gif" alt="error">
         </div>
     </div>
 </footer>
