@@ -40,7 +40,7 @@
 	<Fluent.Expander>GitHub projects
 		<svelte:fragment slot="content">
 			<ul>
-				<li><Fluent.Button variant="hyperlink" href="https://github.com/donut2008/Calculator" target="_blank" rel="noopener noreferrer">Calculator</Fluent.Button></li>
+				<li><Fluent.Button variant="hyperlink" href="https://donut2008.github.io/Calculator" target="_blank" rel="noopener noreferrer">Calculator</Fluent.Button></li>
 				<li><Fluent.Button variant="hyperlink" href="https://github.com/donut2008/NeonX" target="_blank" rel="noopener noreferrer">NeonX</Fluent.Button></li>
 			</ul>
 		</svelte:fragment>
@@ -50,7 +50,7 @@
 			<ul>
 				<li>HP 15s fr2006tu, specifications:<br>11th gen Intel core i3 1115G4<br>8 GB DDR4 RAM<br>15.6 inch 1080p IPS display<br>512 GB NVMe SSD</li>
 				<li>Samsung Galaxy M02 black (32/2 variant) running Android 11, rooted</li>
-				<li>Microsoft Lumia 540 running Windows 10 Mobile 1709</li>
+				<li>Microsoft Lumia 540 running Windows 10 Mobile 1607</li>
 				<li>Logitech M185 wireless mouse</li>
 				<li>LG 32" 1080p TV from 2015</li>
 				<li>Sony MDR ZX110 headphones</li>
@@ -69,7 +69,6 @@
 	</Fluent.Expander>
 </div>
 <p></p>
-<div class="textalign ctext">This website was built using Svelte, a web framework.</div>
 
 <style>
 	@import url("https://unpkg.com/fluent-svelte/theme.css");
