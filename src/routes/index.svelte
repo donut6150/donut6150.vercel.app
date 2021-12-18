@@ -4,12 +4,7 @@
 	import "fluent-svelte/theme.css";
 	let dialogOpen = false;
 </script>
-<svelte:head>
-	<div class="pad ctext">
-		donut2008
-	</div>
-</svelte:head>
-<h1>donut2008</h1>
+<h1 class="ctext">donut2008</h1>
 <div class="pad ctext">
 	<Fluent.TextBlock>Welcome to donut2008's homepage!</Fluent.TextBlock>
 </div>
