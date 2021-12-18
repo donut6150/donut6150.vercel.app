@@ -5,10 +5,11 @@
 	let dialogOpen = false;
 </script>
 <svelte:head>
-	<div class="pad">
+	<div class="pad ctext">
 		donut2008
 	</div>
 </svelte:head>
+<Header>donut2008</Header>
 <div class="pad">
 	<Fluent.TextBlock>Welcome to donut2008's homepage!</Fluent.TextBlock>
 </div>
@@ -93,6 +94,8 @@
 	}
 	.pad {
 		padding: 8px;
+	}
+	.ctext {
 		text-align: center;
 	}
 </style>
