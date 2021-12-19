@@ -8,7 +8,38 @@
     <Fluent.TextBlock>Webpage containing all the releases of donut's calculator</Fluent.TextBlock>
 </div>
 <div class="pad">
-	<Fluent.Expander>Release 0.2 Public Beta
+	<Fluent.Expander>Release 0.3 Beta (August 24, 2021)
+		<svelte:fragment slot="content">
+			<Fluent.TextBlock>New release!<br>Changelog:
+				<ul>
+					<li>Added an installer and uninstaller!</li>
+					<li>32 bit support might have been dropped, Visual Studio is weird</li>
+					<li>Changed Project Type from Debug to Release because of DLL errors</li>
+					<li>Dropped "power" function support temporarily</li>
+					Let me know whether this works on 32 bit systems or not by creating an issue.
+				</ul>
+			</Fluent.TextBlock>
+			<div class="ctext">
+				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v0.3-beta/v0.3_beta.zip">Download</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.3-beta.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.3-beta.tar.gz">Source code (tar.gz)</Fluent.Button>
+			</div>
+		</svelte:fragment>
+	</Fluent.Expander>
+	<Fluent.Expander>Release 0.2.1 Public Beta (August 21, 2021)
+		<svelte:fragment slot="content">
+			<Fluent.TextBlock>Minor release.<br>Changelog:
+			<ul>
+				<li>New functions: Cube root and power</li>
+			Keep in mind this is still in beta, if you encounter any bugs don't hesitate to report them! :)</ul></Fluent.TextBlock>
+			<div class="ctext">
+				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v0.2.1_public-beta/v0.2.1_public-beta.zip">Download</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.2.1_public-beta.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.2.1_public-beta.tar.gz">Source code (tar.gz)</Fluent.Button>
+			</div>
+		</svelte:fragment>
+	</Fluent.Expander>
+	<Fluent.Expander>Release 0.2 Public Beta (August 21, 2021)
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>The first public release!<br>Changelog:
 				<ul>
@@ -24,9 +55,7 @@
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
-</div>
-<div class="pad">
-    <Fluent.Expander>[PRE-RELEASE] 0.1 Alpha
+    <Fluent.Expander>[PRE-RELEASE] 0.1 Alpha (August 20, 2021)
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>The first release of this CLI calculator! Have fun :)</Fluent.TextBlock><br>
 			<Fluent.TextBlock>Known bugs:<ul><li>Typing "exit" in the "enter two numbers" area results in a loop</li></ul></Fluent.TextBlock>
