@@ -16,7 +16,7 @@
 				<li>New icon</li>
 				<li>New function: Square root</li>
 				<li>Added redistributables in case of DLL errors on launch</li>
-				</ul>Keep in mind that this is a public beta release, so you may encounter bugs. Have fun :)</Fluent.TextBlock>
+				Keep in mind that this is a public beta release, so you may encounter bugs. Have fun :)</ul></Fluent.TextBlock>
 			<div class="ctext">
 				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v0.2_public-beta/v0.2_public-beta.zip">Download</Fluent.Button>
 				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.2_public-beta.zip">Source code (zip)</Fluent.Button>
