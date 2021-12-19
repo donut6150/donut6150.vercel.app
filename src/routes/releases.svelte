@@ -8,9 +8,24 @@
     <Fluent.TextBlock>Webpage containing all the releases of donut's calculator</Fluent.TextBlock>
 </div>
 <div class="pad">
+	<Fluent.Expander>[PRE-RELEASE] 0.5.1 build 021021-2031
+		<svelte:fragment slot="content">
+			<Fluent.TextBlock>This is the first major release, though it is quite buggy at the moment<br><br>Features:<ul>
+				<li>Language changed from C++ to C#</li>
+				<li>New interface</li>
+				<li>Supports devices with Windows 10 build 15063 and above (Mobile as well!)</li></ul>
+				Known bugs:
+				<ul>
+				<li>Square, square root, cube, and cube root crash the app</li>
+				<li>Entering a digit, clicking Backspace and clicking "=" results in a crash</li>
+				<li>Header background is white, temporary fix is clicking on any button</li></ul>These bugs are the reason why the CLI version is included in this release as well. Create a new issue if you find any bugs, along with a probable fix because I'm new to C#</Fluent.TextBlock><br>
+		</svelte:fragment>
+	</Fluent.Expander>
+</div>
+<div class="pad">
 	<Fluent.Expander>Release 0.4 build 250921-1948 (September 25, 2021)
 		<svelte:fragment slot="content">
-			<Fluent.TextBlock>Development was stopped temporarily because of exams, so there's nothing much except for the "power" function being fixed and a new build number pattern.</Fluent.TextBlock>
+			<Fluent.TextBlock>Development was stopped temporarily because of exams, so there's nothing much except for the "power" function being fixed and a new build number pattern.</Fluent.TextBlock><br>
 			<div class="ctext">
 				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v0.4_build.250921-1948/v0.4_build.250921-1948.zip">Download</Fluent.Button>
 				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.4_build.250921-1948.zip">Source code (zip)</Fluent.Button>
@@ -22,7 +37,7 @@
 <div class="pad">
 	<Fluent.Expander>Release 0.3 Beta (August 24, 2021)
 		<svelte:fragment slot="content">
-			<Fluent.TextBlock>New release!<br>Changelog:
+			<Fluent.TextBlock>New release!<br><br>Changelog:
 				<ul>
 					<li>Added an installer and uninstaller!</li>
 					<li>32 bit support might have been dropped, Visual Studio is weird</li>
@@ -42,7 +57,7 @@
 <div class="pad">
 	<Fluent.Expander>Release 0.2.1 Public Beta (August 21, 2021)
 		<svelte:fragment slot="content">
-			<Fluent.TextBlock>Minor release.<br>Changelog:
+			<Fluent.TextBlock>Minor release.<br><br>Changelog:
 			<ul>
 				<li>New functions: Cube root and power</li>
 			Keep in mind this is still in beta, if you encounter any bugs don't hesitate to report them! :)</ul></Fluent.TextBlock>
@@ -57,7 +72,7 @@
 <div class="pad">
 	<Fluent.Expander>Release 0.2 Public Beta (August 21, 2021)
 		<svelte:fragment slot="content">
-			<Fluent.TextBlock>The first public release!<br>Changelog:
+			<Fluent.TextBlock>The first public release!<br><br>Changelog:
 				<ul>
 				<li>Fixed #1</li>
 				<li>New icon</li>
@@ -76,7 +91,7 @@
 <div class="pad">
     <Fluent.Expander>[PRE-RELEASE] 0.1 Alpha (August 20, 2021)
 		<svelte:fragment slot="content">
-			<Fluent.TextBlock>The first release of this CLI calculator! Have fun :)</Fluent.TextBlock><br>
+			<Fluent.TextBlock>The first release of this CLI calculator! Have fun :)</Fluent.TextBlock><br><br>
 			<Fluent.TextBlock>Known bugs:<ul><li>Typing "exit" in the "enter two numbers" area results in a loop</li></ul></Fluent.TextBlock>
 			<div class="ctext">
 				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v0.1-alpha/calc.zip">Download</Fluent.Button>
