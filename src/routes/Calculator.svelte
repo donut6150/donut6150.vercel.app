@@ -27,9 +27,9 @@
 		<svelte:fragment slot="content">
 			<table>
 				<tr>
-					<td><img src="https://cdn.discordapp.com/attachments/911987351784419408/921793771455250512/unknown.png" alt="main page"></td>
-					<td><img src="https://cdn.discordapp.com/attachments/911987351784419408/921793651892436992/unknown.png" alt="temperature"></td>
-					<td><img src="https://cdn.discordapp.com/attachments/911987351784419408/921793549064888360/unknown.png" alt="settings"></td>
+					<td><img src="https://cdn.discordapp.com/attachments/911987351784419408/921793771455250512/unknown.png" alt="main page" style="width:100%;height:100%;"></td>
+					<td><img src="https://cdn.discordapp.com/attachments/911987351784419408/921793651892436992/unknown.png" alt="temperature" style="width:100%;height:100%;"></td>
+					<td><img src="https://cdn.discordapp.com/attachments/911987351784419408/921793549064888360/unknown.png" alt="settings" style="width:100%;height:100%;"></td>
 				</tr>
 			</table>
 		</svelte:fragment>
