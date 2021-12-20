@@ -24,6 +24,8 @@
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
+</div>
+<div class="pad">
 	<Fluent.Expander>Release 4.0 stable build 211111-1333<br>Released on: November 11, 2021
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>Changelog:
@@ -39,6 +41,8 @@
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
+</div>
+<div class="pad">
 	<Fluent.Expander>Release 3.0 stable build 211109-1951<br>Released on: November 9, 2021
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>Features:
@@ -54,6 +58,8 @@
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
+</div>
+<div class="pad">
 	<Fluent.Expander>Release 2.0 stable build 211104-1312<br>Released on: November 6, 2021
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>Fixed alignment of GitHub button in About page</Fluent.TextBlock>
@@ -64,6 +70,8 @@
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
+</div>
+<div class="pad">
 	<Fluent.Expander>Release 1.0 stable build 211102-1420<br>Released on: November 2, 2021
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>Big jump :O<br><br>Features:
@@ -81,6 +89,8 @@
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
+</div>
+<div class="pad">
 	<Fluent.Expander>Release 0.6.5 stable build 171021-1652<br>Released on: October 17, 2021
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>The first proper release!<br><br>New features:
@@ -103,6 +113,8 @@
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
+</div>
+<div class="pad">
 	<Fluent.Expander>[PRE-RELEASE] 0.5.1 build 021021-2031<br>Released on: October 2, 2021
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>This is the first major release, though it is quite buggy at the moment<br><br>Features:
@@ -125,6 +137,8 @@
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
+</div>
+<div class="pad">
 	<Fluent.Expander>Release 0.4 build 250921-1948<br>Released on: September 25, 2021
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>Development was stopped temporarily because of exams, so there's nothing much except for the "power" function being fixed and a new build number pattern.</Fluent.TextBlock>
@@ -135,6 +149,8 @@
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
+</div>
+<div class="pad">
 	<Fluent.Expander>Release 0.3 Beta<br>Released on: August 24, 2021
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>New release!<br><br>Changelog:
@@ -153,6 +169,8 @@
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
+</div>
+<div class="pad">
 	<Fluent.Expander>Release 0.2.1 Public Beta<br>Released on: August 21, 2021
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>Minor release.<br><br>Changelog:
@@ -166,6 +184,8 @@
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
+</div>
+<div class="pad">
 	<Fluent.Expander>Release 0.2 Public Beta<br>Released on: August 21, 2021
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>The first public release!<br><br>Changelog:
@@ -183,6 +203,8 @@
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
+</div>
+<div class="pad">
     <Fluent.Expander>[PRE-RELEASE] 0.1 Alpha<br>Released on: August 20, 2021
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>The first release of this CLI calculator! Have fun :)</Fluent.TextBlock><br><br>
