@@ -1,11 +1,8 @@
 <script lang="ts">
-	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
 	import * as Fluent from "fluent-svelte";
 	let dialogOpen = false;
 </script>
-
-<Header />
 
 <main>
 	<slot/>

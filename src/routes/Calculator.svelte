@@ -1,5 +1,4 @@
 <script>
-	import Header from "$lib/header/Header.svelte";
 	import * as Fluent from "fluent-svelte";
 	import "fluent-svelte/theme.css";
 </script>
@@ -9,7 +8,7 @@
 </div>
 <div class="pad ctext">
     <Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v4.0.59/4.0.59-stable.zip">Download latest build</Fluent.Button>
-    <Fluent.Button href="https://donut2008.github.io/releases" target="_blank" rel="noopener noreferrer">View all releases</Fluent.Button>
+    <Fluent.Button href="https://donut2008.github.io/Calculator/releases" target="_blank" rel="noopener noreferrer">View all releases</Fluent.Button>
 </div>
 <div class="pad">
 	<Fluent.Expander>Screenshots (light mode)
@@ -42,6 +41,21 @@
 			font-size: 16px;
 			text-align: left;
 			color: black;
+			
+		}
+		::-webkit-scrollbar {
+		  width: 8px;
+		}
+		::-webkit-scrollbar-track {
+		  background: transparent; 
+		}
+		::-webkit-scrollbar-thumb {
+		  background: #555;
+		  border-radius: 10px;
+		  padding: 2px;
+		}
+		::-webkit-scrollbar-thumb:hover {
+		  background: #888;
 		}
 	}
 	@media(prefers-color-scheme: dark){
@@ -49,6 +63,20 @@
 			font-size: 16px;
 			text-align: left;
 			color: white;
+		}
+		::-webkit-scrollbar {
+		  width: 8px;
+		}
+		::-webkit-scrollbar-track {
+		  background: transparent; 
+		}
+		::-webkit-scrollbar-thumb {
+		  background: rgb(155, 155, 155);
+		  border-radius: 10px;
+		  padding: 2px;
+		}
+		::-webkit-scrollbar-thumb:hover {
+		  background: rgb(129, 129, 129);
 		}
 	}
 	.pad {
