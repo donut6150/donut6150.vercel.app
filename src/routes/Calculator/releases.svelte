@@ -223,21 +223,6 @@
 			font-size: 16px;
 			text-align: left;
 			color: black;
-			
-		}
-		::-webkit-scrollbar {
-		  width: 8px;
-		}
-		::-webkit-scrollbar-track {
-		  background: transparent; 
-		}
-		::-webkit-scrollbar-thumb {
-		  background: #555;
-		  border-radius: 10px;
-		  padding: 2px;
-		}
-		::-webkit-scrollbar-thumb:hover {
-		  background: #888;
 		}
 	}
 	@media(prefers-color-scheme: dark){
@@ -245,20 +230,6 @@
 			font-size: 16px;
 			text-align: left;
 			color: white;
-		}
-		::-webkit-scrollbar {
-		  width: 8px;
-		}
-		::-webkit-scrollbar-track {
-		  background: transparent; 
-		}
-		::-webkit-scrollbar-thumb {
-		  background: rgb(155, 155, 155);
-		  border-radius: 10px;
-		  padding: 2px;
-		}
-		::-webkit-scrollbar-thumb:hover {
-		  background: rgb(133, 133, 133);
 		}
 	}
 	.pad {
