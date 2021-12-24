@@ -7,6 +7,18 @@
     <Fluent.TextBlock>Webpage containing all the releases of donut's calculator</Fluent.TextBlock>
 </div>
 <div class="pad">
+	<Fluent.Expander><Fluent.TextBlock variant="subtitle">Release 5 build 60</Fluent.TextBlock><br><br><Fluent.TextBlock variant="caption">Released on: December 24, 2021</Fluent.TextBlock>
+		<svelte:fragment slot="content">
+			<Fluent.TextBlock>After over a month of trial and error, the app finally has an operation history pane!<br>Check it out! It's in the main page, click the → symbol on the top left to open it.<br><br>I'll be in holiday mood until 3rd January 2022, happy holidays and Merry Christmas!</Fluent.TextBlock>
+			<div class="pad ctext">
+				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v5.0.60/5.0.60_stable.zip">Download</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v5.0.60.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v5.0.60.tar.gz">Source code (tar.gz)</Fluent.Button>
+			</div>
+		</svelte:fragment>
+</Fluent.Expander>
+</div>
+<div class="pad">
 	<Fluent.Expander><Fluent.TextBlock variant="subtitle">Release 4 build 59</Fluent.TextBlock><br><br><Fluent.TextBlock variant="caption">Released on: November 23, 2021</Fluent.TextBlock>
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>(i swear this is the final build pattern LOL)
