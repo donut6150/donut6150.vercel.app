@@ -2,6 +2,7 @@
 	import * as Fluent from "fluent-svelte";
 	import "fluent-svelte/theme.css";
 	let dialogOpen = false;
+	let dialogOpen1 = false;
 </script>
 <h1 class="ctext">donut2008</h1>
 <div class="pad ctext">
@@ -40,7 +41,16 @@
 		<svelte:fragment slot="content">
 			<ul>
 				<li><Fluent.Button variant="hyperlink" href="https://donut2008.github.io/Calculator" target="_blank" rel="noopener noreferrer">Calculator</Fluent.Button></li>
-				<li><Fluent.Button variant="hyperlink" href="https://github.com/donut2008/NeonX" target="_blank" rel="noopener noreferrer">NeonX</Fluent.Button></li>
+				<li><Fluent.Button variant="hyperlink" href="https://github.com/donut2008/NeonX" target="_blank" rel="noopener noreferrer">NeonX (forked from Alur2020/NeonX)</Fluent.Button></li>
+				<li><Fluent.Button variant="hyperlink" on:click={()=>{dialogOpen1=true}}>Drawing Canvas UWP</Fluent.Button></li>
+				<Fluent.ContentDialog bind:open={dialogOpen1} title="This is a work in progress project.">
+					<div style="display: flex; flex-direction: column; gap: 3px; margin: 0;">
+						<Fluent.TextBlock>Stay tuned for updates :)</Fluent.TextBlock>
+					</div>
+					<svelte:fragment slot="footer">
+						<Fluent.Button variant="accent" on:click={() => { dialogOpen1 = false; }}>OK</Fluent.Button>
+					</svelte:fragment>
+				</Fluent.ContentDialog>
 			</ul>
 		</svelte:fragment>
 	</Fluent.Expander>
