@@ -36,25 +36,30 @@
 </div>
 <style>
 	@import url("https://unpkg.com/fluent-svelte/theme.css");
-	@media(prefers-color-scheme: light){
-		:root{
+	@media(prefers-color-scheme: light)
+	{
+		:root
+		{
 			font-size: 16px;
 			text-align: left;
 			color: black;
-			
 		}
 	}
-	@media(prefers-color-scheme: dark){
-		:root{
+	@media(prefers-color-scheme: dark)
+	{
+		:root
+		{
 			font-size: 16px;
 			text-align: left;
 			color: white;
 		}
 	}
-	.pad {
+	.pad
+	{
 		padding: 8px;
 	}
-	.ctext {
+	.ctext
+	{
 		text-align: center;
 	}
 	h1 {
