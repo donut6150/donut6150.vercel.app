@@ -2,9 +2,9 @@
 	import * as Fluent from "fluent-svelte";
 	import "fluent-svelte/theme.css";
 </script>
-<h1 class="ctext">All releases</h1>
+<h1 class="ctext">Calculator: releases</h1>
 <div class="pad ctext">
-    <Fluent.TextBlock>Webpage containing all the releases of donut's calculator</Fluent.TextBlock>
+    <Fluent.TextBlock>All releases of Calculator</Fluent.TextBlock>
 </div>
 <div class="pad">
 	<Fluent.Expander><Fluent.TextBlock variant="subtitle">Release 5 build 60</Fluent.TextBlock><br><br><Fluent.TextBlock variant="caption">Released on: December 24, 2021</Fluent.TextBlock>

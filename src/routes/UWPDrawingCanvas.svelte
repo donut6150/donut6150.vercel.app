@@ -15,7 +15,8 @@
         <svelte:fragment slot="content">
             <table>
                 <tr>
-                    <td><Fluent.TextBlock>yeah you have to wait until the UI revamp</Fluent.TextBlock></td>
+                    <td><img src="https://cdn.discordapp.com/attachments/911987351784419408/1018931178524393663/unknown.png" alt="main page light" style="width:100%;height:100%;"></td>
+					<td><img src="https://cdn.discordapp.com/attachments/911987351784419408/1018931202142502912/unknown.png" alt="settings light" style="width:100%;height:100%;"></td>
                 </tr>
             </table>
         </svelte:fragment>
@@ -24,7 +25,8 @@
         <svelte:fragment slot="content">
             <table>
                 <tr>
-                    <td><Fluent.TextBlock>open the light mode screenshots expander</Fluent.TextBlock></td>
+                    <td><img src="https://cdn.discordapp.com/attachments/911987351784419408/1018930938283036732/unknown.png" alt="main page dark" style="width:100%;height:100%;"></td>
+					<td><img src="https://cdn.discordapp.com/attachments/911987351784419408/1018930996776812634/unknown.png" alt="settings dark" style="width:100%;height:100%;"></td>
                 </tr>
             </table>
         </svelte:fragment>

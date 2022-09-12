@@ -2,7 +2,6 @@
 	import * as Fluent from "fluent-svelte";
 	import "fluent-svelte/theme.css";
 	let dialogOpen = false;
-	let dialogOpen1 = false;
 </script>
 <h1 class="ctext">donut2008</h1>
 <div class="pad ctext">
@@ -37,24 +36,23 @@
 		</Fluent.TextBlock>
 	</svelte:fragment>
 </Fluent.Expander>
-	<Fluent.Expander>GitHub projects
+	<Fluent.Expander>GitHub projects (active/dormant)
 		<svelte:fragment slot="content">
 			<ul>
 				<li><Fluent.Button variant="hyperlink" href="https://donut2008.github.io/Calculator" target="_blank" rel="noopener noreferrer">Calculator</Fluent.Button></li>
-				<li><Fluent.Button variant="hyperlink" href="https://github.com/donut2008/NeonX" target="_blank" rel="noopener noreferrer">NeonX (forked from Alur2020/NeonX)</Fluent.Button></li>
-				<li><Fluent.Button variant="hyperlink" href="https://github.com/donut2008/UWPDrawingCanvas" target="_blank" rel="noopener noreferrer">Drawing Canvas UWP</Fluent.Button></li>
+				<li><Fluent.Button variant="hyperlink" href="https://donut2008.github.io/NeonX" target="_blank" rel="noopener noreferrer">NeonX (forked from Alur2020/NeonX)</Fluent.Button></li>
+				<li><Fluent.Button variant="hyperlink" href="https://donut2008.github.io/UWPDrawingCanvas" target="_blank" rel="noopener noreferrer">Drawing Canvas UWP</Fluent.Button></li>
+				<li><Fluent.Button variant="hyperlink" href="https://donut2008.github.io/DonutOS" target="_blank" rel="noopener noreferrer">DonutOS</Fluent.Button></li>
+				<li><Fluent.Button variant="hyperlink" href="https://donut2008.github.io/WinTranslate" target="_blank" rel="noopener noreferrer">WinTranslate</Fluent.Button></li>
 			</ul>
 		</svelte:fragment>
 	</Fluent.Expander>
 	<Fluent.Expander>Devices I have
 		<svelte:fragment slot="content">
 			<ul>
-				<li>HP 15s fr2006tu, specifications:<br>11th gen Intel core i3 1115G4<br>8 GB DDR4 RAM<br>15.6 inch 1080p IPS display<br>512 GB NVMe SSD</li>
-				<li>Samsung Galaxy M02 black (32/2 variant) running Android 11, rooted</li>
-				<li>Microsoft Lumia 540 running Windows 10 Mobile 1607</li>
-				<li>Logitech M185 wireless mouse</li>
+				<li>HP 15 dr0006tx, specifications:<br>Intel core i5-8250U<br>8 GB DDR4 RAM<br>15.6 inch 1080p IPS display<br>512 GB NVMe SSD</li>
+				<li>Redgear A-17 wired gaming mouse</li>
 				<li>LG 32" 1080p TV from 2015</li>
-				<li>Sony MDR ZX110 headphones</li>
 			</ul>
 		</svelte:fragment>
 	</Fluent.Expander>
