@@ -50,7 +50,7 @@
 	<Fluent.Expander>Devices I have
 		<svelte:fragment slot="content">
 			<ul>
-				<li>HP 15 dr0006tx, specifications:<br>Intel core i5-8250U<br>8 GB DDR4 RAM<br>15.6 inch 1080p IPS display<br>512 GB NVMe SSD</li>
+				<li>HP 15 dr0006tx, specifications:<br>Intel core i5-8250U<br>8GB DDR4 RAM<br>15.6 inch 1080p LCD display<br>250GB SSD + 1TB HDD</li>
 				<li>Redgear A-17 wired gaming mouse</li>
 				<li>LG 32" 1080p TV from 2015</li>
 			</ul>
