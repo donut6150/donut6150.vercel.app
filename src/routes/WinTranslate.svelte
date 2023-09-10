@@ -7,7 +7,7 @@
 	<Fluent.TextBlock>A WIP native Google Translate client written in C# and WinUI 3 for Windows 10 1809 and above.</Fluent.TextBlock>
 </div>
 <div class="pad ctext">
-	<Fluent.TextBlock>More info coming soon! (after my exams end)</Fluent.TextBlock>
+	<Fluent.TextBlock>More info coming soon!</Fluent.TextBlock>
 </div>
 <style>
 	@import url("https://unpkg.com/fluent-svelte/theme.css");

@@ -4,7 +4,7 @@
 </script>
 <h1 class="ctext">Calculator</h1>
 <div class="pad ctext">
-    <Fluent.TextBlock>Calculator written in C# with WinUI 2.7 controls</Fluent.TextBlock>
+    <Fluent.TextBlock>Calculator written in C#.</Fluent.TextBlock>
 </div>
 <div class="pad ctext">
     <Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v5.0.60/5.0.60_stable.zip">Download latest build</Fluent.Button>

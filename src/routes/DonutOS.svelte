@@ -7,7 +7,7 @@
 	<Fluent.TextBlock>A (very) WIP operating system made in C# using <a href="https://github.com/CosmosOS/Cosmos">Cosmos</a>.</Fluent.TextBlock>
 </div>
 <div class="pad ctext">
-	<Fluent.TextBlock>More info coming soon! (after my exams end)</Fluent.TextBlock>
+	<Fluent.TextBlock>Current status: literally broken</Fluent.TextBlock>
 </div>
 <style>
 	@import url("https://unpkg.com/fluent-svelte/theme.css");
