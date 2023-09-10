@@ -54,7 +54,7 @@
 				<li><Fluent.Button variant="hyperlink" href="https://github.com/TheOnlyTails" target="_blank" rel="noopener noreferrer">TheOnlyTails</Fluent.Button></li>
 			</ul>
 			<p></p>
-			Amazing thanks for porting Microsoft's Fluent UI to Svelte!
+			Credits to them for porting Microsoft's Fluent UI to Svelte!
 		</svelte:fragment>
 	</Fluent.Expander>
 </div>
