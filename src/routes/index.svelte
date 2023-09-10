@@ -25,11 +25,11 @@
 <div class="pad">
 	<Fluent.Expander>About me
 	<svelte:fragment slot="content">
-		<Fluent.TextBlock>(Pseudo?) developer learning C#, C++, JS, HTML, and CSS. Always open to friendly DMs.</Fluent.TextBlock>
+		<Fluent.TextBlock>(Pseudo?) developer learning C#, C++, Java, HTML, and CSS. Always open to friendly DMs.</Fluent.TextBlock>
 		<p></p>
 		<Fluent.TextBlock>You can find me here:
 			<ul>
-				<li>Discord - donut2008#7112</li>
+				<li>Discord - donut2008 / donut2008_ (alt)</li>
 				<li>Telegram - @donut2008</li>
 				<li>GitHub - donut2008</li>
 			</ul>
@@ -39,20 +39,11 @@
 	<Fluent.Expander>GitHub projects (active/dormant)
 		<svelte:fragment slot="content">
 			<ul>
-				<li><Fluent.Button variant="hyperlink" href="https://donut2008.github.io/Calculator" target="_blank" rel="noopener noreferrer">Calculator</Fluent.Button></li>
+				<li><Fluent.Button variant="hyperlink" href="https://donut2008.vercel.app/Calculator" target="_blank" rel="noopener noreferrer">Calculator</Fluent.Button></li>
 				<li><Fluent.Button variant="hyperlink" href="https://donut2008.github.io/NeonX" target="_blank" rel="noopener noreferrer">NeonX (forked from Alur2020/NeonX)</Fluent.Button></li>
-				<li><Fluent.Button variant="hyperlink" href="https://donut2008.github.io/UWPDrawingCanvas" target="_blank" rel="noopener noreferrer">Drawing Canvas UWP</Fluent.Button></li>
-				<li><Fluent.Button variant="hyperlink" href="https://donut2008.github.io/DonutOS" target="_blank" rel="noopener noreferrer">DonutOS</Fluent.Button></li>
-				<li><Fluent.Button variant="hyperlink" href="https://donut2008.github.io/WinTranslate" target="_blank" rel="noopener noreferrer">WinTranslate</Fluent.Button></li>
-			</ul>
-		</svelte:fragment>
-	</Fluent.Expander>
-	<Fluent.Expander>Devices I have
-		<svelte:fragment slot="content">
-			<ul>
-				<li>HP 15 dr0006tx, specifications:<br>Intel core i5-8250U<br>8GB DDR4 RAM<br>15.6 inch 1080p LCD display<br>250GB SSD + 1TB HDD</li>
-				<li>Redgear A-17 wired gaming mouse</li>
-				<li>LG 32" 1080p TV from 2015</li>
+				<li><Fluent.Button variant="hyperlink" href="https://donut2008.vercel.app/UWPDrawingCanvas" target="_blank" rel="noopener noreferrer">Drawing Canvas UWP</Fluent.Button></li>
+				<li><Fluent.Button variant="hyperlink" href="https://donut2008.vercel.app/DonutOS" target="_blank" rel="noopener noreferrer">DonutOS</Fluent.Button></li>
+				<li><Fluent.Button variant="hyperlink" href="https://donut2008.vercel.app/WinTranslate" target="_blank" rel="noopener noreferrer">WinTranslate</Fluent.Button></li>
 			</ul>
 		</svelte:fragment>
 	</Fluent.Expander>
