@@ -40,7 +40,7 @@
 		<svelte:fragment slot="content">
 			<ul>
 				<li><Fluent.Button variant="hyperlink" href="https://donut2008.github.io/Calculator" target="_blank" rel="noopener noreferrer">Calculator</Fluent.Button></li>
-				<li><Fluent.Button variant="hyperlink" href="https://donut2008.github.io/NeonX" target="_blank" rel="noopener noreferrer">NeonX (forked from Alur2020/NeonX)</Fluent.Button></li>
+				<li><Fluent.Button variant="hyperlink" href="https://neonx.vercel.app" target="_blank" rel="noopener noreferrer">NeonX (forked from Alur2020/NeonX)</Fluent.Button></li>
 				<li><Fluent.Button variant="hyperlink" href="https://donut2008.github.io/UWPDrawingCanvas" target="_blank" rel="noopener noreferrer">Drawing Canvas UWP</Fluent.Button></li>
 				<li><Fluent.Button variant="hyperlink" href="https://donut2008.github.io/DonutOS" target="_blank" rel="noopener noreferrer">DonutOS</Fluent.Button></li>
 				<li><Fluent.Button variant="hyperlink" href="https://donut2008.github.io/WinTranslate" target="_blank" rel="noopener noreferrer">WinTranslate</Fluent.Button></li>
@@ -54,7 +54,7 @@
 				<li><Fluent.Button variant="hyperlink" href="https://github.com/TheOnlyTails" target="_blank" rel="noopener noreferrer">TheOnlyTails</Fluent.Button></li>
 			</ul>
 			<p></p>
-			Credits to for porting Microsoft's Fluent UI to Svelte!
+			Credits to them for porting Microsoft's Fluent UI to Svelte!
 		</svelte:fragment>
 	</Fluent.Expander>
 </div>
