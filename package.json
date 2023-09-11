@@ -38,6 +38,8 @@
     "focus-trap": "^6.7.1",
     "node-sass": "^9.0.0",
     "sass": "^1.43.5",
-    "svelte-focus-trap": "^1.2.0"
+    "svelte-focus-trap": "^1.2.0",
+    "vite": "^4.4.9",
+    "yarn": "^1.22.19"
   }
 }
