@@ -61,13 +61,15 @@
 <p></p>
 
 <style>
+	:root {
+		font-family: var(--fds-font-family-display);
+	}
 	@import url("https://unpkg.com/fluent-svelte/theme.css");
 	@media(prefers-color-scheme: light){
 		:root{
 			font-size: 16px;
 			text-align: left;
 			color: black;
-			
 		}
 	}
 	@media(prefers-color-scheme: dark){
