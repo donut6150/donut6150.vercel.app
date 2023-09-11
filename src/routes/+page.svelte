@@ -63,6 +63,7 @@
 <style>
 	:root {
 		font-family: var(--fds-font-family-display);
+		background-color: var(--fds-mica-background-base);
 	}
 	@import url("https://unpkg.com/fluent-svelte/theme.css");
 	@media(prefers-color-scheme: light){
