@@ -1,7 +1,5 @@
 <script lang="ts">
 	import '../app.css';
-	import * as Fluent from "fluent-svelte";
-	let dialogOpen = false;
 </script>
 
 <main>
