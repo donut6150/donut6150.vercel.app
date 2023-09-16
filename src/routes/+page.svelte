@@ -7,10 +7,10 @@
 <div class="pad ctext">
 	<Fluent.TextBlock>Welcome to donut2008's homepage!</Fluent.TextBlock>
 </div>
-<div class="pad card">
-	<h2>About me</h2>
+<div class="pad card bgd">
+	<h2 class="bgs">About me</h2>
 	<Fluent.TextBlock>(Pseudo?) developer learning C#, C++, Java, HTML, and CSS. Always open to friendly DMs.</Fluent.TextBlock>
-		<p></p>
+		<p/>
 		<Fluent.TextBlock>You can find me here:
 			<ul>
 				<li>Discord - donut2008 / donut2008_ (alt)</li>
@@ -20,19 +20,6 @@
 		</Fluent.TextBlock>
 </div>
 <div class="pad">
-	<Fluent.Expander>About me
-	<svelte:fragment slot="content">
-		<Fluent.TextBlock>(Pseudo?) developer learning C#, C++, Java, HTML, and CSS. Always open to friendly DMs.</Fluent.TextBlock>
-		<p></p>
-		<Fluent.TextBlock>You can find me here:
-			<ul>
-				<li>Discord - donut2008 / donut2008_ (alt)</li>
-				<li>Telegram - @donut2008</li>
-				<li>GitHub - donut2008</li>
-			</ul>
-		</Fluent.TextBlock>
-	</svelte:fragment>
-</Fluent.Expander>
 	<Fluent.Expander>GitHub projects (active/dormant)
 		<svelte:fragment slot="content">
 			<ul>
@@ -50,12 +37,11 @@
 				<li><Fluent.Button variant="hyperlink" href="https://github.com/Tropix126" target="_blank" rel="noopener noreferrer">Tropix126</Fluent.Button></li>
 				<li><Fluent.Button variant="hyperlink" href="https://github.com/TheOnlyTails" target="_blank" rel="noopener noreferrer">TheOnlyTails</Fluent.Button></li>
 			</ul>
-			<p></p>
+			<p/>
 			Credits to them for porting Microsoft's Fluent UI to Svelte!
 		</svelte:fragment>
 	</Fluent.Expander>
 </div>
-<p></p>
 
 <style>
 	:root {
@@ -92,5 +78,11 @@
 		border-radius: 8px;
 		background: var(--fds-acrylic-background-default);
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	.bgd {
+		background: var(--fds-card-background-default);
+	}
+	.bgs {
+		background: var(--fds-card-background-secondary);
 	}
 </style>
