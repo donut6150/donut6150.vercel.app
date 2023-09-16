@@ -7,6 +7,18 @@
 <div class="pad ctext">
 	<Fluent.TextBlock>Welcome to donut2008's homepage!</Fluent.TextBlock>
 </div>
+<div class="pad card">
+	<h2 class="pad">About me</h2>
+	<Fluent.TextBlock>(Pseudo?) developer learning C#, C++, Java, HTML, and CSS. Always open to friendly DMs.</Fluent.TextBlock>
+		<p></p>
+		<Fluent.TextBlock>You can find me here:
+			<ul>
+				<li>Discord - donut2008 / donut2008_ (alt)</li>
+				<li>Telegram - @donut2008</li>
+				<li>GitHub - donut2008</li>
+			</ul>
+		</Fluent.TextBlock>
+</div>
 <div class="pad ctext">
 <Fluent.Button variant="accent" href="https://github.com/donut2008" target="_blank" rel="noopener noreferrer">GitHub</Fluent.Button>
 &nbsp;
@@ -90,5 +102,10 @@
 	}
 	h1 {
 		font-size: 40px;
+	}
+	.card {
+		border-radius: 8px;
+		background: var(--fds-acrylic-background-default);
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
 </style>
