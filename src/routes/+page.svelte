@@ -71,7 +71,7 @@
 			font-size: 16px;
 			text-align: left;
 			color: black;
-			background: linear-gradient(0deg, hsla(0, 0%, 95%, 0.5), hsla(0, 0%, 95%, 0.5)), hsl(0, 0%, 95%);
+			background: var(--fds-mica-background-base);
 		}
 	}
 	@media(prefers-color-scheme: dark){
