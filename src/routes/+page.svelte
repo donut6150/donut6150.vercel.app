@@ -15,7 +15,7 @@
 <Fluent.Button variant="accent" on:click={()=>{dialogOpen=true}}>Discord</Fluent.Button>
 <Fluent.ContentDialog bind:open={dialogOpen} style="text-align: left;" title="Opening profiles through URLs aren't implemented into Discord for now.">
 	<div style="display: flex; flex-direction: column; gap: 3px; margin: 0;">
-		<Fluent.TextBlock style="text-align: left;">Send me a friend request on Discord (donut2008#7112) in order to DM me there.</Fluent.TextBlock>
+		<Fluent.TextBlock style="text-align: left;">Send me a friend request on Discord (donut2008 / donut2008_) in order to DM me there.</Fluent.TextBlock>
 	</div>
 	<svelte:fragment slot="footer">
 		<Fluent.Button variant="accent" on:click={() => { dialogOpen = false; }}>OK</Fluent.Button>
