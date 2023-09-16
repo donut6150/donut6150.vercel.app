@@ -8,7 +8,7 @@
 	<Fluent.TextBlock>Welcome to donut2008's homepage!</Fluent.TextBlock>
 </div>
 <div class="pad card">
-	<h2 class="pad">About me</h2>
+	<h2>About me</h2>
 	<Fluent.TextBlock>(Pseudo?) developer learning C#, C++, Java, HTML, and CSS. Always open to friendly DMs.</Fluent.TextBlock>
 		<p></p>
 		<Fluent.TextBlock>You can find me here:
@@ -18,21 +18,6 @@
 				<li>GitHub - donut2008</li>
 			</ul>
 		</Fluent.TextBlock>
-</div>
-<div class="pad ctext">
-<Fluent.Button variant="accent" href="https://github.com/donut2008" target="_blank" rel="noopener noreferrer">GitHub</Fluent.Button>
-&nbsp;
-<Fluent.Button variant="accent" href="https://t.me/donut2008" target="_blank" rel="noopener noreferrer">Telegram</Fluent.Button>
-&nbsp;
-<Fluent.Button variant="accent" on:click={()=>{dialogOpen=true}}>Discord</Fluent.Button>
-<Fluent.ContentDialog bind:open={dialogOpen} style="text-align: left;" title="Opening profiles through URLs aren't implemented into Discord for now.">
-	<div style="display: flex; flex-direction: column; gap: 3px; margin: 0;">
-		<Fluent.TextBlock style="text-align: left;">Send me a friend request on Discord (donut2008 / donut2008_) in order to DM me there.</Fluent.TextBlock>
-	</div>
-	<svelte:fragment slot="footer">
-		<Fluent.Button variant="accent" on:click={() => { dialogOpen = false; }}>OK</Fluent.Button>
-	</svelte:fragment>
-</Fluent.ContentDialog>
 </div>
 <div class="pad">
 	<Fluent.Expander>About me
@@ -95,7 +80,7 @@
 		}
 	}
 	.pad {
-		padding: 8px;
+		padding: 16px 8px;
 	}
 	.ctext {
 		text-align: center;
