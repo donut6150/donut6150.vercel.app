@@ -71,7 +71,7 @@
 			font-size: 16px;
 			text-align: left;
 			color: black;
-			background: var(--fds-acrylic-background-default);
+			background: var(--fds-mica-background-base);
 		}
 	}
 	@media(prefers-color-scheme: dark){
@@ -79,7 +79,7 @@
 			font-size: 16px;
 			text-align: left;
 			color: white;
-			background: linear-gradient(0deg, rgb(32, 32, 32, 0.8), rgb(32, 32, 32, 0.8)), #202020;
+			background: var(--fds-mica-background-base);
 		}
 	}
 	.pad {
