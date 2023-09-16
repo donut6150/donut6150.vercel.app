@@ -80,7 +80,7 @@
 		}
 	}
 	.pad {
-		padding: 16px 8px;
+		padding: 16px;
 	}
 	.ctext {
 		text-align: center;
