@@ -11,11 +11,11 @@
 
 	/* Font Families */
 	--fds-font-family-fallback: "Segoe UI", system-ui, sans-serif;
-	--fds-font-family-text: "Segoe UI Variable Text", "Seoge UI Variable Static Text",
+	--fds-font-family-text: "Segoe UI Variable Text", "Segoe UI Variable Static Text",
 		var(--fds-font-family-fallback);
-	--fds-font-family-small: "Segoe UI Variable Small", "Seoge UI Variable Static Small",
+	--fds-font-family-small: "Segoe UI Variable Small", "Segoe UI Variable Static Small",
 		var(--fds-font-family-fallback);
-	--fds-font-family-display: "Segoe UI Variable Display", "Seoge UI Variable Static Display",
+	--fds-font-family-display: "Segoe UI Variable Display", "Segoe UI Variable Static Display",
 		var(--fds-font-family-fallback);
 
 	/* Font Size */
