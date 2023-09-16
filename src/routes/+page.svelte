@@ -71,7 +71,7 @@
 			font-size: 16px;
 			text-align: left;
 			color: black;
-			background: var(--fds-acrylic-background-default);
+			background: var(--fds-acrylic-background-base);
 		}
 	}
 	@media(prefers-color-scheme: dark){
@@ -79,7 +79,7 @@
 			font-size: 16px;
 			text-align: left;
 			color: white;
-			background: var(--fds-acrylic-background-default);
+			background: var(--fds-acrylic-background-base);
 		}
 	}
 	.pad {
