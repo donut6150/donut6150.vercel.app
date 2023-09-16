@@ -7,7 +7,7 @@
 <div class="pad ctext">
 	<Fluent.TextBlock>Welcome to donut2008's homepage!</Fluent.TextBlock>
 </div>
-<div class="pad card bgd">
+<div class="card bgd">
 	<h2 class="bgs">About me</h2>
 	<Fluent.TextBlock>(Pseudo?) developer learning C#, C++, Java, HTML, and CSS. Always open to friendly DMs.</Fluent.TextBlock>
 		<p/>
