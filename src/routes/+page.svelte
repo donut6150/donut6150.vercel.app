@@ -13,16 +13,14 @@
 		<div class="pad">
 			<Fluent.TextBlock>
 				Some guy learning C#, C++, Java, HTML, and CSS. Always open to
-				friendly DMs.
-			</Fluent.TextBlock>
-			<p />
-			<Fluent.TextBlock>
-				You can find me here:
-				<ul>
-					<li>Discord - donut2008 / donut2008_ (alt)</li>
-					<li>Telegram - @donut2008</li>
-					<li>GitHub - donut2008</li>
-				</ul>
+				friendly DMs.<br />
+				I'm passionate about computers, programming, maths, and music. I
+				like physics and chemistry too. Fiddling with desktop and mobile
+				OSes was a considerable chunk of my life in 2020 and 2021.<br />
+				I'm somewhat of a musician, although I don't make music. I play the
+				keyboards, and have a Yamaha PSR-I455 for the purpose. Taking a music
+				break really helps when it comes to any task, and that's why I love
+				music.
 			</Fluent.TextBlock>
 		</div>
 	</div>
