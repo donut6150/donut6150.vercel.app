@@ -10,7 +10,7 @@
 <footer>
     <div class="pad">
         <div class="textalign">
-            <img src=".https://raw.githubusercontent.com/donut2008/donut2008.vercel.app/master/img/error.ico" alt="error">
+            <img src="https://raw.githubusercontent.com/donut2008/donut2008.vercel.app/master/img/error.ico" alt="error">
         </div>
         <h1 class="ctext">Whoops, there seems to be an error...</h1>
     </div>
