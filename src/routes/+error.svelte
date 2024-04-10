@@ -10,7 +10,7 @@
 <footer>
     <div class="pad">
         <div class="textalign">
-            <img src="../img/error.ico" alt="error">
+            <img src="../../img/error.ico" alt="error">
         </div>
         <h1 class="ctext">Whoops, there seems to be an error...</h1>
     </div>
