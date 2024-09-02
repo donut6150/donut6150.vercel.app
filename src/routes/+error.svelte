@@ -56,6 +56,7 @@
         justify-content: stretch;
         align-items: stretch;
         padding: 40px;
+        border-radius: 16px;
     }
 
     .textalign {
