@@ -12,7 +12,7 @@
 		<h2 class="pad bgs">About me</h2>
 		<div class="pad">
 			<Fluent.TextBlock>
-				Some guy learning C#, C++, Java, HTML, and CSS. Always open to
+				Some guy learning C#, C++, Java, HTML, and Python. Always open to
 				friendly DMs.<br />
 				I'm passionate about computers, programming, maths, and music. I
 				like physics and chemistry too. Fiddling with desktop and mobile
