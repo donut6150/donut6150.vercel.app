@@ -71,6 +71,14 @@
 							>WinTranslate</Fluent.Button
 						>
 					</li>
+					<li>
+						<Fluent.Button
+						variant="hyperlink"
+						href="https://donut2008.github.io/DeleteInverter"
+						target="_blank"
+						rel="noopener noreferrer"
+						>DeleteInverter</Fluent.Button>
+					</li>
 				</ul>
 			</Fluent.TextBlock>
 		</div>
