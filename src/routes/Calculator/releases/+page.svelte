@@ -102,7 +102,7 @@
 	</Fluent.Expander>
 </div>
 <div>
-	<Fluent.Expander><Fluent.TextBlock variant="subtitle">Release 0.6.5 stable build 171021-1652</Fluent.TextBlock><br><Fluent.TextBlock variant="caption">Released on: October 17, 2021</Fluent.TextBlock>
+	<Fluent.Expander><Fluent.TextBlock variant="subtitle">Release 0.6.5 stable build 171021-1652</Fluent.TextBlock><br><br><Fluent.TextBlock variant="caption">Released on: October 17, 2021</Fluent.TextBlock>
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>The first proper release!<br><br>New features:
 				<ul>
@@ -235,6 +235,7 @@
 			font-size: 16px;
 			text-align: left;
 			color: black;
+			color-scheme: light;
 		}
 	}
 	@media(prefers-color-scheme: dark){
@@ -242,6 +243,7 @@
 			font-size: 16px;
 			text-align: left;
 			color: white;
+			color-scheme: dark;
 		}
 	}
 	.pad {

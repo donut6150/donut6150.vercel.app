@@ -12,8 +12,8 @@
 		<h2 class="pad bgs">About me</h2>
 		<div class="pad">
 			<Fluent.TextBlock>
-				Some guy learning C#, C++, Java, HTML, and Python. Always open to
-				friendly DMs.<br />
+				Some guy learning C#, C++, Java, HTML, and Python. Always open
+				to friendly DMs.<br />
 				I'm passionate about computers, programming, maths, and music. I
 				like physics and chemistry too. Fiddling with desktop and mobile
 				OSes was a considerable chunk of my life in 2020 and 2021.<br />
@@ -32,7 +32,7 @@
 					<li>
 						<Fluent.Button
 							variant="hyperlink"
-							href="https://donut2008.github.io/Calculator"
+							href="Calculator"
 							target="_blank"
 							rel="noopener noreferrer">Calculator</Fluent.Button
 						>
@@ -40,7 +40,7 @@
 					<li>
 						<Fluent.Button
 							variant="hyperlink"
-							href="https://donut2008.github.io/NeonX"
+							href="https://neonx.vercel.app"
 							target="_blank"
 							rel="noopener noreferrer">NeonX</Fluent.Button
 						>
@@ -48,7 +48,7 @@
 					<li>
 						<Fluent.Button
 							variant="hyperlink"
-							href="https://donut2008.github.io/UWPDrawingCanvas"
+							href="UWPDrawingCanvas"
 							target="_blank"
 							rel="noopener noreferrer"
 							>Drawing Canvas UWP</Fluent.Button
@@ -57,7 +57,7 @@
 					<li>
 						<Fluent.Button
 							variant="hyperlink"
-							href="https://donut2008.github.io/DonutOS"
+							href="DonutOS"
 							target="_blank"
 							rel="noopener noreferrer">DonutOS</Fluent.Button
 						>
@@ -65,7 +65,7 @@
 					<li>
 						<Fluent.Button
 							variant="hyperlink"
-							href="https://donut2008.github.io/WinTranslate"
+							href="WinTranslate"
 							target="_blank"
 							rel="noopener noreferrer"
 							>WinTranslate</Fluent.Button
@@ -73,11 +73,12 @@
 					</li>
 					<li>
 						<Fluent.Button
-						variant="hyperlink"
-						href="https://donut2008.github.io/DeleteInverter"
-						target="_blank"
-						rel="noopener noreferrer"
-						>DeleteInverter</Fluent.Button>
+							variant="hyperlink"
+							href="DeleteInverter"
+							target="_blank"
+							rel="noopener noreferrer"
+							>DeleteInverter</Fluent.Button
+						>
 					</li>
 				</ul>
 			</Fluent.TextBlock>
@@ -136,7 +137,7 @@
 			</Fluent.Button>
 			<Fluent.Button
 				variant="standard"
-				href="https://youtube.com/@donut2008"
+				href="https://youtube.com/@WalnutException"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
@@ -146,7 +147,7 @@
 						alt="YouTube"
 					/>
 					<figcaption class="ctext">
-						<Fluent.TextBlock>@donut2008</Fluent.TextBlock>
+						<Fluent.TextBlock>@WalnutException</Fluent.TextBlock>
 					</figcaption>
 				</figure>
 			</Fluent.Button>
@@ -177,23 +178,19 @@
 	@import url("../app.css");
 	:root {
 		font-family: var(--fds-font-family-display);
-		background-size: cover;
 		font-size: 16px;
 		text-align: left;
-		background-image: var(--fds-mica-background-base), var(--bg);
 		color-scheme: var(--cs);
 	}
 	@media (prefers-color-scheme: light) {
 		:root {
 			color: black;
-			--bg: url("https://cdn.wallpaperhub.app/cloudcache/8/e/c/4/4/f/8ec44f86876a912a93f4116f50e6a3839af5c03b.jpg");
 			--cs: light;
 		}
 	}
 	@media (prefers-color-scheme: dark) {
 		:root {
 			color: white;
-			--bg: url("https://cdn.wallpaperhub.app/cloudcache/a/1/c/a/d/b/a1cadb0911675232054cc13deee6a3221b4dd88e.jpg");
 			--cs: dark;
 		}
 	}

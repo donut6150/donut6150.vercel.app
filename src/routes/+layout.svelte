@@ -14,21 +14,19 @@
 	@import url("../app.css");
 	:root {
 		font-family: var(--fds-font-family-display);
-		background-size: cover;
 		font-size: 16px;
 		text-align: left;
-		background-image: var(--fds-mica-background-base), var(--bg);
 	}
 	@media(prefers-color-scheme: light){
 		:root{
 			color: black;
-			--bg: url("https://cdn.wallpaperhub.app/cloudcache/8/e/c/4/4/f/8ec44f86876a912a93f4116f50e6a3839af5c03b.jpg");
+			background-color: var(--fds-solid-background-base);
 		}
 	}
 	@media(prefers-color-scheme: dark){
 		:root{
 			color: white;
-			--bg: url("https://cdn.wallpaperhub.app/cloudcache/a/1/c/a/d/b/a1cadb0911675232054cc13deee6a3221b4dd88e.jpg");
+			background-color: var(--fds-solid-background-base);
 		}
 	}
 	::-webkit-scrollbar {
