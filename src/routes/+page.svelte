@@ -100,7 +100,7 @@
 		<h2 class="pad bgs">Socials</h2>
 		<div class="pad">
 			<Fluent.Button
-				style="margin: 2px;"
+				style="margin: 2px 0;"
 				variant="standard"
 				href="https://telegram.me/donut2008"
 				target="_blank"
@@ -117,7 +117,7 @@
 				</figure>
 			</Fluent.Button>
 			<Fluent.Button
-				style="margin: 2px;"
+				style="margin: 2px 0;"
 				variant="standard"
 				href="https://discord.com/users/796351855181037569"
 				target="_blank"
@@ -134,7 +134,7 @@
 				</figure>
 			</Fluent.Button>
 			<Fluent.Button
-				style="margin: 2px;"
+				style="margin: 2px 0;"
 				variant="standard"
 				href="https://github.com/donut2008"
 				target="_blank"
@@ -151,7 +151,7 @@
 				</figure>
 			</Fluent.Button>
 			<Fluent.Button
-				style="margin: 2px;"
+				style="margin: 2px 0;"
 				variant="standard"
 				href="https://youtube.com/@WalnutException"
 				target="_blank"
@@ -168,7 +168,7 @@
 				</figure>
 			</Fluent.Button>
 			<Fluent.Button
-				style="margin: 2px;"
+				style="margin: 2px 0;"
 				variant="standard"
 				href="http://live.xbox.com/Profile?Gamertag=FireFox44039"
 				target="_blank"
