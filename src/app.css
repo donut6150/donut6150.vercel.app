@@ -421,7 +421,6 @@
 ::-webkit-scrollbar-thumb {
 	background: #555;
 	border-radius: 10px;
-	padding: 2px;
 }
 ::-webkit-scrollbar-thumb:hover {
 	background: #888;
@@ -444,6 +443,7 @@ footer {
 	align-items: center;
 	padding: 0;
 	margin: 0;
+	margin-bottom: 4px;
 }
 
 .main {

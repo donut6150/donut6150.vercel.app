@@ -12,7 +12,7 @@
 		<h2 class="pad bgs">About me</h2>
 		<div class="pad">
 			<Fluent.TextBlock>
-				Some guy learning C#, C++, Java, HTML, and Python. Always open
+				Someone learning C#, C++, Java, HTML, and Python. Always open
 				to friendly DMs.<br />
 				I'm passionate about computers, programming, maths, and music. I
 				like physics and chemistry too. Fiddling with desktop and mobile
@@ -21,6 +21,18 @@
 				keyboards, and have a Yamaha PSR-I455 for the purpose. Taking a music
 				break really helps when it comes to any task, and that's why I love
 				music.
+				<br /><br />
+				I'm usually active on Discord when it comes to development. Feel
+				free to join the Developer Sanctuary Discord server and check out
+				the #donut-projects channel, if you want to see what I'm working
+				on next!<br /><br />
+				<Fluent.Button
+					variant="hyperlink"
+					href="https://discord.gg/windows-apps-hub-714581497222398064"
+					target="_blank"
+					rel="noopener noreferrer"
+					>Invite link (permanently valid)</Fluent.Button
+				>
 			</Fluent.TextBlock>
 		</div>
 	</div>
