@@ -1,13 +1,14 @@
 <script lang="ts">
-	import '../app.css';
+	import "../app.css";
+	import { TextBlock } from "fluent-svelte";
 </script>
 
 <main>
-	<slot/>
+	<slot />
 </main>
 
 <footer>
-	
+	<TextBlock>© donut2008 2021-present.</TextBlock>
 </footer>
 
 <style>
@@ -17,14 +18,14 @@
 		font-size: 16px;
 		text-align: left;
 	}
-	@media(prefers-color-scheme: light){
-		:root{
+	@media (prefers-color-scheme: light) {
+		:root {
 			color: black;
 			background-color: var(--fds-solid-background-base);
 		}
 	}
-	@media(prefers-color-scheme: dark){
-		:root{
+	@media (prefers-color-scheme: dark) {
+		:root {
 			color: white;
 			background-color: var(--fds-solid-background-base);
 		}
@@ -33,15 +34,15 @@
 		width: 8px;
 	}
 	::-webkit-scrollbar-track {
-		background: transparent; 
+		background: transparent;
 	}
 	::-webkit-scrollbar-thumb {
-	  	background: #555;
-	  	border-radius: 10px;
-	  	padding: 2px;
+		background: #555;
+		border-radius: 10px;
+		padding: 2px;
 	}
 	::-webkit-scrollbar-thumb:hover {
-	  	background: #888;
+		background: #888;
 	}
 	main {
 		flex: 1;
@@ -52,13 +53,12 @@
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
-	
+
 	footer {
 		display: flex;
 		flex-direction: column;
 		justify-content: stretch;
-		align-items: stretch;
-		padding: 40px;
+		align-items: center;
 	}
 	@media (min-width: 480px) {
 		footer {

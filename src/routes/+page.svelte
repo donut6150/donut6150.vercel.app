@@ -170,6 +170,3 @@
 		</div>
 	</div>
 </div>
-<div class="fb">
-	<Fluent.TextBlock>© donut2008 2021-present.</Fluent.TextBlock>
-</div>
