@@ -12,8 +12,8 @@
 		<h2 class="pad bgs">About me</h2>
 		<div class="pad">
 			<Fluent.TextBlock>
-				Someone learning C#, C++, Java, HTML, and Python. Always open
-				to friendly DMs.<br />
+				Someone learning C#, C++, Java, HTML, and Python. Always open to
+				friendly DMs.<br />
 				I'm passionate about computers, programming, maths, and music. I
 				like physics and chemistry too. Fiddling with desktop and mobile
 				OSes was a considerable chunk of my life in 2020 and 2021.<br />
@@ -100,6 +100,7 @@
 		<h2 class="pad bgs">Socials</h2>
 		<div class="pad">
 			<Fluent.Button
+				style="margin: 2px;"
 				variant="standard"
 				href="https://telegram.me/donut2008"
 				target="_blank"
@@ -116,6 +117,7 @@
 				</figure>
 			</Fluent.Button>
 			<Fluent.Button
+				style="margin: 2px;"
 				variant="standard"
 				href="https://discord.com/users/796351855181037569"
 				target="_blank"
@@ -132,6 +134,7 @@
 				</figure>
 			</Fluent.Button>
 			<Fluent.Button
+				style="margin: 2px;"
 				variant="standard"
 				href="https://github.com/donut2008"
 				target="_blank"
@@ -148,6 +151,7 @@
 				</figure>
 			</Fluent.Button>
 			<Fluent.Button
+				style="margin: 2px;"
 				variant="standard"
 				href="https://youtube.com/@WalnutException"
 				target="_blank"
@@ -164,6 +168,7 @@
 				</figure>
 			</Fluent.Button>
 			<Fluent.Button
+				style="margin: 2px;"
 				variant="standard"
 				href="http://live.xbox.com/Profile?Gamertag=FireFox44039"
 				target="_blank"
