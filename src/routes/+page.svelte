@@ -102,7 +102,7 @@
 			<Fluent.Button
 				style="margin: 2px 0;"
 				variant="standard"
-				href="https://telegram.me/donut2008"
+				href="https://telegram.me/donut6150"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
@@ -112,7 +112,7 @@
 						alt="Telegram"
 					/>
 					<figcaption class="ctext">
-						<Fluent.TextBlock>donut2008</Fluent.TextBlock>
+						<Fluent.TextBlock>donut6150</Fluent.TextBlock>
 					</figcaption>
 				</figure>
 			</Fluent.Button>
