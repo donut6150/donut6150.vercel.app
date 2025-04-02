@@ -43,11 +43,11 @@
 					<li>Ink settings don't get saved on closing the app</li>
 				</ul>
 			</Fluent.TextBlock>
+			<div class="pad ctext">
+				<Fluent.Button variant="accent" href="https://github.com/donut2008/UWPDrawingCanvas/releases/download/v1.0p/UWPDrawingCanvas_1.0p_64.zip">Download</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut2008/UWPDrawingCanvas/archive/refs/tags/v1.0p.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut2008/UWPDrawingCanvas/archive/refs/tags/v1.0p.tar.gz">Source code (tar.gz)</Fluent.Button>
+			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
-	<div class="pad ctext">
-		<Fluent.Button variant="accent" href="https://github.com/donut2008/UWPDrawingCanvas/releases/download/v1.0p/UWPDrawingCanvas_1.0p_64.zip">Download</Fluent.Button>
-		<Fluent.Button href="https://github.com/donut2008/UWPDrawingCanvas/archive/refs/tags/v1.0p.zip">Source code (zip)</Fluent.Button>
-		<Fluent.Button href="https://github.com/donut2008/UWPDrawingCanvas/archive/refs/tags/v1.0p.tar.gz">Source code (tar.gz)</Fluent.Button>
-	</div>
 </div>
