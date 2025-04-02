@@ -36,6 +36,8 @@
 <div class="pad">
 	<Fluent.Expander>
 		<Fluent.TextBlock variant="subtitle">Pre-release 1.0 build 64</Fluent.TextBlock>
+		<br><br>
+		<Fluent.TextBlock variant="caption">Released on: Jan 14, 2022</Fluent.TextBlock>
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>Initial release! (rather, pre-release)<br><br>Known issues:
 				<ul>
