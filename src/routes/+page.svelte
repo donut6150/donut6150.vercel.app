@@ -38,7 +38,7 @@
 	</div>
 	<div class="card">
 		<h2 class="pad bgs">GitHub statistics</h2>
-		<div class="pad">
+		<div class="pad" style="overflow-x:auto;overflow-y:auto;height=100%;width:100%;">
 			<table>
 				<tr>
 					<td><img src="https://github-readme-stats.vercel.app/api?username=donut2008&show_icons=true&theme=dark" style="width:467px;height=195px;"/></td>
