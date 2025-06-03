@@ -41,9 +41,9 @@
 		<div class="pad">
 			<table>
 				<tr>
-					<td><img src="https://github-readme-stats.vercel.app/api?username=donut2008&show_icons=true&theme=dark" style="width:467px;height=195px"/></td>
-					<td><img src="https://github-readme-streak-stats.herokuapp.com?user=donut2008&theme=dark" style="width:495px;height=195px"></td>
-					<td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=donut2008&theme=dark" alt="Most used languages" style="width:300px;height=285px"></td>
+					<td><img src="https://github-readme-stats.vercel.app/api?username=donut2008&show_icons=true&theme=dark" style="width:467px;height=195px;"/></td>
+					<td><img src="https://github-readme-streak-stats.herokuapp.com?user=donut2008&theme=dark" style="width:495px;height=195px;"></td>
+					<td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=donut2008&theme=dark" alt="Most used languages" style="width:300px;height=285px;"></td>
 				</tr>
 			</table>
 		</div>
