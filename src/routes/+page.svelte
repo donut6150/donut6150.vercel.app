@@ -49,6 +49,7 @@
 				<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=donut2008&theme=dark" alt="Most used languages">
 			</p>
 		</div>
+	</div>
 	<div class="card">
 		<h2 class="pad bgs">GitHub projects</h2>
 		<div class="pad">
