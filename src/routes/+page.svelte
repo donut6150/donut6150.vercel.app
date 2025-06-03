@@ -37,6 +37,19 @@
 		</div>
 	</div>
 	<div class="card">
+		<h2 class="pad bgs">GitHub statistics</h2>
+		<div class="pad">
+			<p> 
+				<img src="https://github-readme-stats.vercel.app/api?username=donut2008&show_icons=true&theme=dark"/>
+			</p>
+			<p>
+				<img src="https://github-readme-streak-stats.herokuapp.com?user=donut2008&theme=dark">
+			</p>
+			<p>
+				<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=donut2008&theme=dark" alt="Most used languages">
+			</p>
+		</div>
+	<div class="card">
 		<h2 class="pad bgs">GitHub projects</h2>
 		<div class="pad">
 			<Fluent.TextBlock>
