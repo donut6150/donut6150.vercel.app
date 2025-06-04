@@ -49,6 +49,45 @@
 		</div>
 	</div>
 	<div class="card">
+		<h2 class="pad bgs">Kernels</h2>
+		<div class="pad">
+			<Fluent.Button
+				style="margin: 2px 0;"
+				variant="standard"
+				href="https://github.com/donut2008/kernel_samsung_universal7904"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<figure style="margin: 0;">
+					<img
+						src="https://raw.githubusercontent.com/donut2008/donut2008.vercel.app/master/img/A30s.jpg"
+						alt="Samsung Galaxy A30s"
+					/>
+					<figcaption class="ctext">
+						<Fluent.TextBlock>Samsung Galaxy A30s (universal7904, 4.4.177)</Fluent.TextBlock>
+					</figcaption>
+				</figure>
+			</Fluent.Button>
+			<Fluent.Button
+				style="margin: 2px 0;"
+				variant="standard"
+				href="https://github.com/donut2008/kernel_samsung_sm6150"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<figure style="margin: 0;">
+					<img
+						src="https://raw.githubusercontent.com/donut2008/donut2008.vercel.app/master/img/M40.jpg"
+						alt="Samsung Galaxy M40"
+					/>
+					<figcaption class="ctext">
+						<Fluent.TextBlock>Samsung Galaxy M40 (sm6150, 4.14.190)</Fluent.TextBlock>
+					</figcaption>
+				</figure>
+			</Fluent.Button>
+		</div>
+	</div>
+	<div class="card">
 		<h2 class="pad bgs">GitHub projects</h2>
 		<div class="pad">
 			<Fluent.TextBlock>
