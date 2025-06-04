@@ -482,7 +482,7 @@ img {
 	padding: 8px 32px;
 }
 
-img[src*="github-readme"] {
+img[src*="github"] {
 	width: auto !important;
 	height: auto !important;
 }
