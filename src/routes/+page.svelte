@@ -41,9 +41,20 @@
 		<div class="pad">
 			<table>
 				<tr>
-					<td><img src="https://github-readme-stats.vercel.app/api?username=donut2008&show_icons=true&theme=dark" alt="GitHub stats"/></td>
-					<td><img src="https://github-readme-streak-stats.herokuapp.com?user=donut2008&theme=dark" alt="Streak"></td>
-					<td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=donut2008&theme=dark" alt="Most used languages"></td>
+					<td>
+						<img src="https://github-readme-stats.vercel.app/api?username=donut2008&show_icons=true&theme=dark"
+						alt="GitHub stats"
+						style="width: auto !important; height: auto !important;"/>
+					</td>
+					<td>
+						<img src="https://github-readme-streak-stats.herokuapp.com?user=donut2008&theme=dark"
+						alt="GitHub Streak"
+						style="width: auto !important; height: auto !important;"/>
+					</td>
+					<td>
+						<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=donut2008&theme=dark"
+						alt="Most used languages"
+						style="width: auto !important; height: auto !important;"/></td>
 				</tr>
 			</table>
 		</div>
