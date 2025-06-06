@@ -42,7 +42,7 @@
 	</div>
 	<div class="card">
 		<h2 class="pad bgs">GitHub statistics</h2>
-		<div class="pad">
+		<div class="pad" style="overflow-x: scroll;">
 			<table>
 				<tr>
 					<td>
