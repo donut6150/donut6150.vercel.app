@@ -22,6 +22,10 @@
 				break really helps when it comes to any task, and that's why I love
 				music.
 				<br /><br />
+				Why donut6150 though? The "donut" is completely random - I had no
+				idea what to use as a username, and for some reason "donut" sounded
+				really appropriate. "6150" is a reference to the Snapdragon 675 SoC.
+				<br /><br />
 				I'm usually active on Discord when it comes to development. Feel
 				free to join the Developer Sanctuary Discord server and check out
 				the #donut-projects channel, if you want to see what I'm working
