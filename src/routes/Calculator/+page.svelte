@@ -7,7 +7,7 @@
     <Fluent.TextBlock>Calculator written in C#.</Fluent.TextBlock>
 </div>
 <div class="pad ctext">
-    <Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v5.0.60/5.0.60_stable.zip">Download latest build</Fluent.Button>
+    <Fluent.Button variant="accent" href="https://github.com/donut6150/Calculator/releases/download/v5.0.60/5.0.60_stable.zip">Download latest build</Fluent.Button>
     <Fluent.Button href="Calculator/releases" target="_blank" rel="noopener noreferrer">View all releases</Fluent.Button>
 </div>
 <div class="pad">

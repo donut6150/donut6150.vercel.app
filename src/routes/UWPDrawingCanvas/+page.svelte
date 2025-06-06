@@ -7,8 +7,8 @@
     <Fluent.TextBlock>A UWP drawing canvas.</Fluent.TextBlock>
 </div>
 <div class="pad ctext">
-    <Fluent.Button variant="accent" href="https://github.com/donut2008/UWPDrawingCanvas/releases/download/v2.5/2.5.100.0_x86_x64.zip">Download latest build</Fluent.Button>
-    <Fluent.Button href="https://donut2008.github.io/UWPDrawingCanvas/releases" target="_blank" rel="noopener noreferrer">View all releases</Fluent.Button>
+    <Fluent.Button variant="accent" href="https://github.com/donut6150/UWPDrawingCanvas/releases/download/v2.5/2.5.100.0_x86_x64.zip">Download latest build</Fluent.Button>
+    <Fluent.Button href="https://donut6150.github.io/UWPDrawingCanvas/releases" target="_blank" rel="noopener noreferrer">View all releases</Fluent.Button>
 </div>
 <div class="pad">
     <Fluent.Expander>Screenshots (light mode)

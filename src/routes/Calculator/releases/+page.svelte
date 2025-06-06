@@ -11,9 +11,9 @@
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>After over a month of trial and error, the app finally has an operation history pane!<br>Check it out! It's in the main page, click the → symbol on the top left to open it.<br><br>I'll be in holiday mood until 3rd January 2022, happy holidays and Merry Christmas!</Fluent.TextBlock>
 			<div class="pad ctext">
-				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v5.0.60/5.0.60_stable.zip">Download</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v5.0.60.zip">Source code (zip)</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v5.0.60.tar.gz">Source code (tar.gz)</Fluent.Button>
+				<Fluent.Button variant="accent" href="https://github.com/donut6150/Calculator/releases/download/v5.0.60/5.0.60_stable.zip">Download</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v5.0.60.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v5.0.60.tar.gz">Source code (tar.gz)</Fluent.Button>
 			</div>
 		</svelte:fragment>
 </Fluent.Expander>
@@ -29,9 +29,9 @@
 				</ul>
 			</Fluent.TextBlock>
 			<div class="pad ctext">
-				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v4.0.59/4.0.59-stable.zip">Download</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v4.0.59.zip">Source code (zip)</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v4.0.59.tar.gz">Source code (tar.gz)</Fluent.Button>
+				<Fluent.Button variant="accent" href="https://github.com/donut6150/Calculator/releases/download/v4.0.59/4.0.59-stable.zip">Download</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v4.0.59.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v4.0.59.tar.gz">Source code (tar.gz)</Fluent.Button>
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
@@ -46,9 +46,9 @@
 				</ul>
 			</Fluent.TextBlock>
 			<div class="pad ctext">
-				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v4.0-stable_211111-1333/4.0.stable.build.211111-1333.zip">Download</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v4.0-stable_211111-1333.zip">Source code (zip)</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v4.0-stable_211111-1333.tar.gz">Source code (tar.gz)</Fluent.Button>
+				<Fluent.Button variant="accent" href="https://github.com/donut6150/Calculator/releases/download/v4.0-stable_211111-1333/4.0.stable.build.211111-1333.zip">Download</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v4.0-stable_211111-1333.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v4.0-stable_211111-1333.tar.gz">Source code (tar.gz)</Fluent.Button>
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
@@ -63,9 +63,9 @@
 				</ul>
 			</Fluent.TextBlock>
 			<div class="pad ctext">
-				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v3.0-stable_211109-1951/3.0.stable.build.211109-1951.zip">Download</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v3.0-stable_211109-1951.zip">Source code (zip)</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v3.0-stable_211109-1951.tar.gz">Source code (tar.gz)</Fluent.Button>
+				<Fluent.Button variant="accent" href="https://github.com/donut6150/Calculator/releases/download/v3.0-stable_211109-1951/3.0.stable.build.211109-1951.zip">Download</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v3.0-stable_211109-1951.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v3.0-stable_211109-1951.tar.gz">Source code (tar.gz)</Fluent.Button>
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
@@ -75,9 +75,9 @@
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>Fixed alignment of GitHub button in About page</Fluent.TextBlock>
 			<div class="pad ctext">
-				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v2.0_211104-1312/2.0.stable.build.211104-1312.zip">Download</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v2.0_211104-1312.zip">Source code (zip)</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v2.0_211104-1312.tar.gz">Source code (tar.gz)</Fluent.Button>
+				<Fluent.Button variant="accent" href="https://github.com/donut6150/Calculator/releases/download/v2.0_211104-1312/2.0.stable.build.211104-1312.zip">Download</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v2.0_211104-1312.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v2.0_211104-1312.tar.gz">Source code (tar.gz)</Fluent.Button>
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
@@ -94,9 +94,9 @@
 				Enjoy!
 			</Fluent.TextBlock>
 			<div class="pad ctext">
-				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v2.0_211104-1312/2.0.stable.build.211104-1312.zip">Download</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v2.0_211104-1312.zip">Source code (zip)</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v2.0_211104-1312.tar.gz">Source code (tar.gz)</Fluent.Button>
+				<Fluent.Button variant="accent" href="https://github.com/donut6150/Calculator/releases/download/v2.0_211104-1312/2.0.stable.build.211104-1312.zip">Download</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v2.0_211104-1312.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v2.0_211104-1312.tar.gz">Source code (tar.gz)</Fluent.Button>
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
@@ -118,9 +118,9 @@
 				</ul>
 			</Fluent.TextBlock>
 			<div class="pad ctext">
-				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/0.6.5-stable_171021-1652/0.6.5-stable_171021-1652.zip">Download</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/0.6.5-stable_171021-1652.zip">Source code (zip)</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/0.6.5-stable_171021-1652.tar.gz">Source code (tar.gz)</Fluent.Button>
+				<Fluent.Button variant="accent" href="https://github.com/donut6150/Calculator/releases/download/0.6.5-stable_171021-1652/0.6.5-stable_171021-1652.zip">Download</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/0.6.5-stable_171021-1652.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/0.6.5-stable_171021-1652.tar.gz">Source code (tar.gz)</Fluent.Button>
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
@@ -141,10 +141,10 @@
 					<li>Header background is white, temporary fix is clicking on any button</li>
 				</ul>These bugs are the reason why the CLI version is included in this release as well. Create a new issue if you find any bugs, along with a probable fix because I'm new to C#</Fluent.TextBlock>
 			<div class="pad ctext">
-				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v0.5.1-preview_021021-2031/CalculatorGUI_0.5.1.zip">Download (GUI)</Fluent.Button>
-				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v0.5.1-preview_021021-2031/v0.4_build.250921-1948.zip">Download (CLI)</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.5.1-preview_021021-2031.zip">Source code (zip)</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.5.1-preview_021021-2031.tar.gz">Source code (tar.gz)</Fluent.Button>
+				<Fluent.Button variant="accent" href="https://github.com/donut6150/Calculator/releases/download/v0.5.1-preview_021021-2031/CalculatorGUI_0.5.1.zip">Download (GUI)</Fluent.Button>
+				<Fluent.Button variant="accent" href="https://github.com/donut6150/Calculator/releases/download/v0.5.1-preview_021021-2031/v0.4_build.250921-1948.zip">Download (CLI)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v0.5.1-preview_021021-2031.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v0.5.1-preview_021021-2031.tar.gz">Source code (tar.gz)</Fluent.Button>
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
@@ -154,9 +154,9 @@
 		<svelte:fragment slot="content">
 			<Fluent.TextBlock>Development was stopped temporarily because of exams, so there's nothing much except for the "power" function being fixed and a new build number pattern.</Fluent.TextBlock>
 			<div class="pad ctext">
-				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v0.4_build.250921-1948/v0.4_build.250921-1948.zip">Download</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.4_build.250921-1948.zip">Source code (zip)</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.4_build.250921-1948.tar.gz">Source code (tar.gz)</Fluent.Button>
+				<Fluent.Button variant="accent" href="https://github.com/donut6150/Calculator/releases/download/v0.4_build.250921-1948/v0.4_build.250921-1948.zip">Download</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v0.4_build.250921-1948.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v0.4_build.250921-1948.tar.gz">Source code (tar.gz)</Fluent.Button>
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
@@ -174,9 +174,9 @@
 				Let me know whether this works on 32 bit systems or not by creating an issue.<br>
 			</Fluent.TextBlock>
 			<div class="pad ctext">
-				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v0.3-beta/v0.3_beta.zip">Download</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.3-beta.zip">Source code (zip)</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.3-beta.tar.gz">Source code (tar.gz)</Fluent.Button>
+				<Fluent.Button variant="accent" href="https://github.com/donut6150/Calculator/releases/download/v0.3-beta/v0.3_beta.zip">Download</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v0.3-beta.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v0.3-beta.tar.gz">Source code (tar.gz)</Fluent.Button>
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
@@ -189,9 +189,9 @@
 				<li>New functions: Cube root and power</li>
 			Keep in mind this is still in beta, if you encounter any bugs don't hesitate to report them! :)</ul></Fluent.TextBlock>
 			<div class="pad ctext">
-				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v0.2.1_public-beta/v0.2.1_public-beta.zip">Download</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.2.1_public-beta.zip">Source code (zip)</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.2.1_public-beta.tar.gz">Source code (tar.gz)</Fluent.Button>
+				<Fluent.Button variant="accent" href="https://github.com/donut6150/Calculator/releases/download/v0.2.1_public-beta/v0.2.1_public-beta.zip">Download</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v0.2.1_public-beta.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v0.2.1_public-beta.tar.gz">Source code (tar.gz)</Fluent.Button>
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
@@ -208,9 +208,9 @@
 				</ul>
 			Keep in mind that this is a public beta release, so you may encounter bugs. Have fun :)<br></Fluent.TextBlock>
 			<div class="pad ctext">
-				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v0.2_public-beta/v0.2_public-beta.zip">Download</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.2_public-beta.zip">Source code (zip)</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.2_public-beta.tar.gz">Source code (tar.gz)</Fluent.Button>
+				<Fluent.Button variant="accent" href="https://github.com/donut6150/Calculator/releases/download/v0.2_public-beta/v0.2_public-beta.zip">Download</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v0.2_public-beta.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v0.2_public-beta.tar.gz">Source code (tar.gz)</Fluent.Button>
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
@@ -221,9 +221,9 @@
 			<Fluent.TextBlock>The first release of this CLI calculator! Have fun :)</Fluent.TextBlock><br><br>
 			<Fluent.TextBlock>Known bugs:<ul><li>Typing "exit" in the "enter two numbers" area results in a loop</li></ul></Fluent.TextBlock>
 			<div class="pad ctext">
-				<Fluent.Button variant="accent" href="https://github.com/donut2008/Calculator/releases/download/v0.1-alpha/calc.zip">Download</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.1-alpha.zip">Source code (zip)</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/Calculator/archive/refs/tags/v0.1-alpha.tar.gz">Source code (tar.gz)</Fluent.Button>
+				<Fluent.Button variant="accent" href="https://github.com/donut6150/Calculator/releases/download/v0.1-alpha/calc.zip">Download</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v0.1-alpha.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/Calculator/archive/refs/tags/v0.1-alpha.tar.gz">Source code (tar.gz)</Fluent.Button>
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>

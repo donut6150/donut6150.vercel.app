@@ -19,9 +19,9 @@
                 </ul>
             </TextBlock>
 			<div class="pad ctext">
-				<Button variant="accent" href="https://github.com/donut2008/DeleteInverter/releases/download/1.1.0/DeleteInverter_1.1.0.0.zip">Download</Button>
-				<Button href="https://github.com/donut2008/DeleteInverter/archive/refs/tags/1.1.0.zip">Source code (zip)</Button>
-				<Button href="https://github.com/donut2008/DeleteInverter/archive/refs/tags/1.1.0.tar.gz">Source code (tar.gz)</Button>
+				<Button variant="accent" href="https://github.com/donut6150/DeleteInverter/releases/download/1.1.0/DeleteInverter_1.1.0.0.zip">Download</Button>
+				<Button href="https://github.com/donut6150/DeleteInverter/archive/refs/tags/1.1.0.zip">Source code (zip)</Button>
+				<Button href="https://github.com/donut6150/DeleteInverter/archive/refs/tags/1.1.0.tar.gz">Source code (tar.gz)</Button>
 			</div>
 		</svelte:fragment>
 	</Expander>
@@ -34,11 +34,11 @@
 		<svelte:fragment slot="content">
 			<TextBlock>Initial release!</TextBlock>
             <div class="pad ctext">
-                <Button variant="accent" href="https://github.com/donut2008/DeleteInverter/releases/download/1.0.0/DeleteInverter_1.0.0.0_ARM.appx">Download (ARM)</Button>
-                <Button variant="accent" href="https://github.com/donut2008/DeleteInverter/releases/download/1.0.0/DeleteInverter_1.0.0.0_x64.appx">Download (x64)</Button>
-                <Button variant="accent" href="https://github.com/donut2008/DeleteInverter/releases/download/1.0.0/DeleteInverter_1.0.0.0_x86.appx">Download (x86)</Button>
-                <Button href="https://github.com/donut2008/DeleteInverter/archive/refs/tags/1.0.0.zip">Source code (zip)</Button>
-                <Button href="https://github.com/donut2008/DeleteInverter/archive/refs/tags/1.0.0.tar.gz">Source code (tar.gz)</Button>
+                <Button variant="accent" href="https://github.com/donut6150/DeleteInverter/releases/download/1.0.0/DeleteInverter_1.0.0.0_ARM.appx">Download (ARM)</Button>
+                <Button variant="accent" href="https://github.com/donut6150/DeleteInverter/releases/download/1.0.0/DeleteInverter_1.0.0.0_x64.appx">Download (x64)</Button>
+                <Button variant="accent" href="https://github.com/donut6150/DeleteInverter/releases/download/1.0.0/DeleteInverter_1.0.0.0_x86.appx">Download (x86)</Button>
+                <Button href="https://github.com/donut6150/DeleteInverter/archive/refs/tags/1.0.0.zip">Source code (zip)</Button>
+                <Button href="https://github.com/donut6150/DeleteInverter/archive/refs/tags/1.0.0.tar.gz">Source code (tar.gz)</Button>
             </div>
         </svelte:fragment>
     </Expander>

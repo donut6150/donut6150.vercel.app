@@ -7,7 +7,7 @@
     <TextBlock>An app which deletes files except the ones you manually select. Exclusions will not be deleted.</TextBlock>
 </div>
 <div class="pad ctext">
-    <Button variant="accent" href="https://github.com/donut2008/DeleteInverter/releases/download/1.1.0/DeleteInverter_1.1.0.0.zip">Download latest build</Button>
+    <Button variant="accent" href="https://github.com/donut6150/DeleteInverter/releases/download/1.1.0/DeleteInverter_1.1.0.0.zip">Download latest build</Button>
     <Button href="DeleteInverter/releases" target="blank" rel="noopener noreferrer">View all releases</Button>
 </div>
 <div class="pad">

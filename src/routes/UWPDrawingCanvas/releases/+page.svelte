@@ -26,9 +26,9 @@
 			Enjoy! :D
 			</Fluent.TextBlock>
 			<div class="pad ctext">
-				<Fluent.Button variant="accent" href="https://github.com/donut2008/UWPDrawingCanvas/releases/download/v2.5/2.5.100.0_x86_x64.zip">Download</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/UWPDrawingCanvas/archive/refs/tags/v2.5.zip">Source code (zip)</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/UWPDrawingCanvas/archive/refs/tags/v2.5.tar.gz">Source code (tar.gz)</Fluent.Button>
+				<Fluent.Button variant="accent" href="https://github.com/donut6150/UWPDrawingCanvas/releases/download/v2.5/2.5.100.0_x86_x64.zip">Download</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/UWPDrawingCanvas/archive/refs/tags/v2.5.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/UWPDrawingCanvas/archive/refs/tags/v2.5.tar.gz">Source code (tar.gz)</Fluent.Button>
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
@@ -46,9 +46,9 @@
 				</ul>
 			</Fluent.TextBlock>
 			<div class="pad ctext">
-				<Fluent.Button variant="accent" href="https://github.com/donut2008/UWPDrawingCanvas/releases/download/v1.0p/UWPDrawingCanvas_1.0p_64.zip">Download</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/UWPDrawingCanvas/archive/refs/tags/v1.0p.zip">Source code (zip)</Fluent.Button>
-				<Fluent.Button href="https://github.com/donut2008/UWPDrawingCanvas/archive/refs/tags/v1.0p.tar.gz">Source code (tar.gz)</Fluent.Button>
+				<Fluent.Button variant="accent" href="https://github.com/donut6150/UWPDrawingCanvas/releases/download/v1.0p/UWPDrawingCanvas_1.0p_64.zip">Download</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/UWPDrawingCanvas/archive/refs/tags/v1.0p.zip">Source code (zip)</Fluent.Button>
+				<Fluent.Button href="https://github.com/donut6150/UWPDrawingCanvas/archive/refs/tags/v1.0p.tar.gz">Source code (tar.gz)</Fluent.Button>
 			</div>
 		</svelte:fragment>
 	</Fluent.Expander>
