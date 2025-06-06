@@ -481,8 +481,3 @@ img {
 	height: 32px;
 	padding: 8px 32px;
 }
-
-img[src*="github"] {
-	width: auto !important;
-	height: auto !important;
-}

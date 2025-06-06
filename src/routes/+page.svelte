@@ -60,8 +60,9 @@
 			>
 				<figure style="margin: 0;">
 					<img
-						src="https://raw.githubusercontent.com/donut2008/donut2008.vercel.app/master/img/A30s.jpg"
+						src="https://raw.githubusercontent.com/donut2008/donut2008.vercel.app/master/img/A30s.png"
 						alt="Samsung Galaxy A30s"
+						style="width: 128px !important; height: 128px !important;"
 					/>
 					<figcaption class="ctext">
 						<Fluent.TextBlock>Samsung Galaxy A30s (universal7904, 4.4.177)</Fluent.TextBlock>
@@ -77,8 +78,9 @@
 			>
 				<figure style="margin: 0;">
 					<img
-						src="https://raw.githubusercontent.com/donut2008/donut2008.vercel.app/master/img/M40.jpg"
+						src="https://raw.githubusercontent.com/donut2008/donut2008.vercel.app/master/img/M40.png"
 						alt="Samsung Galaxy M40"
+						style="width: 128px !important; height: 128px !important;"
 					/>
 					<figcaption class="ctext">
 						<Fluent.TextBlock>Samsung Galaxy M40 (sm6150, 4.14.190)</Fluent.TextBlock>
