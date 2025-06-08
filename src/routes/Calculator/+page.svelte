@@ -5,6 +5,7 @@
 <h1 class="ctext">Calculator</h1>
 <div class="pad ctext">
     <Fluent.TextBlock>Calculator written in C#.</Fluent.TextBlock>
+    <Fluent.TextBlock>⚠ Certificate is expired, you cannot install this as of now! ⚠</Fluent.TextBlock>
 </div>
 <div class="pad ctext">
     <Fluent.Button variant="accent" href="https://github.com/donut6150/Calculator/releases/download/v5.0.60/5.0.60_stable.zip">Download latest build</Fluent.Button>
