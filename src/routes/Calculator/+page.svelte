@@ -6,7 +6,7 @@
 <div class="pad ctext">
     <Fluent.TextBlock>Calculator written in C#.</Fluent.TextBlock>
 </div>
-<div class="pad ctext">
+<div class="pad ctext" style="display: flex; justify-content: center;">
     <table>
         <tr>
             <td><img src="https://raw.githubusercontent.com/donut6150/donut6150.vercel.app/master/img/error.ico" alt="error" style="width: 16px; height: 16px;"></td>
