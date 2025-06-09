@@ -7,9 +7,13 @@
     <Fluent.TextBlock>Calculator written in C#.</Fluent.TextBlock>
 </div>
 <div class="pad ctext">
-    <img src="https://raw.githubusercontent.com/donut6150/donut6150.vercel.app/master/img/error.ico" alt="error" style="width: 16px; height: 16px;">
-    <Fluent.TextBlock>Certificate is expired, you cannot install this as of now!</Fluent.TextBlock>
-    <img src="https://raw.githubusercontent.com/donut6150/donut6150.vercel.app/master/img/error.ico" alt="error" style="width: 16px; height: 16px;">
+    <table>
+        <tr>
+            <td><img src="https://raw.githubusercontent.com/donut6150/donut6150.vercel.app/master/img/error.ico" alt="error" style="width: 16px; height: 16px;"></td>
+            <td><Fluent.TextBlock>Certificate is expired, you cannot install this as of now!</Fluent.TextBlock></td>
+            <td><img src="https://raw.githubusercontent.com/donut6150/donut6150.vercel.app/master/img/error.ico" alt="error" style="width: 16px; height: 16px;"></td>
+        </tr>
+    </table>
 </div>
 <div class="pad ctext">
     <Fluent.Button variant="accent" href="https://github.com/donut6150/Calculator/releases/download/v5.0.60/5.0.60_stable.zip">Download latest build</Fluent.Button>
