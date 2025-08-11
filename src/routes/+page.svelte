@@ -197,7 +197,7 @@
 						alt="Discord"
 					/>
 					<figcaption class="ctext">
-						<Fluent.TextBlock>donut6150</Fluent.TextBlock>
+						<Fluent.TextBlock>donut.6150</Fluent.TextBlock>
 					</figcaption>
 				</figure>
 			</Fluent.Button>
