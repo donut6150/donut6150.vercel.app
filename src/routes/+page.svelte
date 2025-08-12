@@ -52,7 +52,7 @@
 							style="width: auto !important; height: auto !important;"/>
 						</td>
 						<td>
-							<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=donut6150&theme=transparent"
+							<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=donut6150&theme=transparent&layout=compact"
 							alt="Most used languages"
 							style="width: auto !important; height: auto !important;"/></td>
 					</tr>
