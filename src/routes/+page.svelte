@@ -109,18 +109,21 @@
 		</div>
 		<div>
 			<sl-button outline
+                style="margin: 2px 0;"
 				variant="primary"
 				href="Calculator"
 				target="_blank"
 				rel="noopener noreferrer">Calculator</sl-button
 			>
 			<sl-button outline
+                style="margin: 2px 0;"
 				variant="primary"
 				href="https://neonx.vercel.app"
 				target="_blank"
 				rel="noopener noreferrer">NeonX</sl-button
 			>
 			<sl-button outline
+                style="margin: 2px 0;"
 				variant="primary"
 				href="UWPDrawingCanvas"
 				target="_blank"
@@ -128,12 +131,14 @@
 				>Drawing Canvas UWP</sl-button
 			>
 			<sl-button outline
+                style="margin: 2px 0;"
 				variant="primary"
 				href="DonutOS"
 				target="_blank"
 				rel="noopener noreferrer">DonutOS</sl-button
 			>
 			<sl-button outline
+                style="margin: 2px 0;"
 				variant="primary"
 				href="WinTranslate"
 				target="_blank"
@@ -141,6 +146,7 @@
 				>WinTranslate</sl-button
 			>
 			<sl-button outline
+                style="margin: 2px 0;"
 				variant="primary"
 				href="DeleteInverter"
 				target="_blank"
