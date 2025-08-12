@@ -42,17 +42,17 @@
 				<tbody>
 					<tr>
 						<td>
-							<img src="https://github-readme-stats.vercel.app/api?username=donut6150&show_icons=true&theme=dark"
+							<img src="https://github-readme-stats.vercel.app/api?username=donut6150&show_icons=true&theme=transparent"
 							alt="GitHub stats"
 							style="width: auto !important; height: auto !important;"/>
 						</td>
 						<td>
-							<img src="https://github-readme-streak-stats.herokuapp.com?user=donut6150&theme=dark"
+							<img src="https://github-readme-streak-stats-gray-one.vercel.app?user=donut6150&theme=transparent"
 							alt="GitHub Streak"
 							style="width: auto !important; height: auto !important;"/>
 						</td>
 						<td>
-							<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=donut6150&theme=dark"
+							<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=donut6150&theme=transparent"
 							alt="Most used languages"
 							style="width: auto !important; height: auto !important;"/></td>
 					</tr>
