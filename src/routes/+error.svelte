@@ -1,28 +1,28 @@
 <script lang="ts">
     import '../app.css';
-    import {TextBlock} from "fluent-svelte";
 </script>
 
 <main>
-    <slot/>
+    <slot>
+        <div class="pad">
+            <div class="textalign">
+                <img src="https://raw.githubusercontent.com/donut6150/donut6150.vercel.app/master/img/error.ico" alt="error" style="width: 96px !important; height: 96px !important;">
+            </div>
+            <h1 class="ctext">Whoops, there seems to be an error...</h1>
+        </div>
+        <div class="pad">
+            <div class="ctext" style="font-size: xx-large;">
+                The requested page either does not exist, or didn't load correctly.
+            </div>
+        </div>
+    </slot>
 </main>
 
 <footer>
-    <div class="pad">
-        <div class="textalign">
-            <img src="https://raw.githubusercontent.com/donut6150/donut6150.vercel.app/master/img/error.ico" alt="error">
-        </div>
-        <h1 class="ctext">Whoops, there seems to be an error...</h1>
-    </div>
-    <div class="pad">
-        <div class="ctext">
-            <TextBlock>The requested page either does not exist, or didn't load correctly.</TextBlock>
-        </div>
-    </div>
+    
 </footer>
 
 <style>
-    @import url("https://unpkg.com/fluent-svelte/theme.css");
 
     @media (prefers-color-scheme: light) {
         :root {

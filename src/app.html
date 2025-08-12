@@ -1,15 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace-autoloader.js"></script>
+<script type="module">
+	const customTags = [...new Set([...document.querySelectorAll('*')].map(el => el.tagName.toLowerCase()).filter(tag => tag.includes('-')))];
+	await Promise.allSettled(
+		customTags.map(
+			tag => customElements.whenDefined(tag)
+		)
+	);
+	document.documentElement.classList.add('ready');
+</script>
 <html lang="en">
+	<style>
+		html {
+			opacity: 0;
+		}
+		html.ready {
+			opacity: 1;
+    		transition: .1s ease;
+		}
+	</style>
+	<link
+		rel="stylesheet"
+		media="(prefers-color-scheme:light)"
+		href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css"
+	/>
+	<link
+		rel="stylesheet"
+		media="(prefers-color-scheme:dark)"
+		href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/dark.css"
+		onload="document.documentElement.classList.add('sl-theme-dark');"
+	/>
+
 	<head>
 		<meta charset="utf-8" />
-		<meta name="description" content="Welcome to donut6150's webpage!" />
-		<meta property="og:image" content="https://avatars.githubusercontent.com/u/76439683"/>
-		<link rel="icon" href="https://avatars.githubusercontent.com/u/76439683"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>donut6150</title>
 		%sveltekit.head%
 	</head>
-	<body style="margin: 0;">
-		<div id="svelte">%sveltekit.body%</div>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>

@@ -1,74 +1,73 @@
-<script>
-	import * as Fluent from "fluent-svelte";
-	import "fluent-svelte/theme.css";
+<script lang="ts">
 </script>
-
 <div class="main">
 	<h1 class="ctext">donut6150</h1>
 	<div class="pad ctext">
-		<Fluent.TextBlock>Welcome to donut6150's homepage!</Fluent.TextBlock>
+		Welcome to donut6150's website!
 	</div>
-	<div class="card">
-		<h2 class="pad bgs">About me</h2>
-		<div class="pad">
-			<Fluent.TextBlock>
-				Someone learning C#, C++, Java, HTML, and Python. Always open to
-				friendly DMs.<br />
-				I'm passionate about computers, programming, maths, and music. I
-				like physics and chemistry too. Fiddling with desktop and mobile
-				OSes was a considerable chunk of my life in 2020 and 2021.<br />
-				I'm somewhat of a musician, although I don't make music. I play the
-				keyboards, and have a Yamaha PSR-I455 for the purpose. Taking a music
-				break really helps when it comes to any task, and that's why I love
-				music.
-				<br /><br />
-				Why donut6150 though? The "donut" is completely random - I had no
-				idea what to use as a username, and for some reason "donut" sounded
-				really appropriate. "6150" is a reference to the Snapdragon 675 SoC.
-				<br /><br />
-				I'm usually active on Discord when it comes to development. Feel
-				free to join the Developer Sanctuary Discord server and check out
-				the #donut-projects channel, if you want to see what I'm working
-				on next!<br /><br />
-				<Fluent.Button
-					variant="hyperlink"
-					href="https://discord.gg/windows-apps-hub-714581497222398064"
-					target="_blank"
-					rel="noopener noreferrer"
-					>Invite link (permanently valid)</Fluent.Button
-				>
-			</Fluent.TextBlock>
+	<sl-card class="card-header">
+  		<div slot="header">
+			<h2>About me</h2>
 		</div>
-	</div>
-	<div class="card">
-		<h2 class="pad bgs">GitHub statistics</h2>
-		<div class="pad" style="overflow-x: auto;">
+		<div style="font-size: var(--sl-font-size-medium);">
+			Someone learning C, C#, C++, Java, Python, and TypeScript. I plan to use Rust as well, soon.
+			<br />
+			I'm somewhat of a musician, although I don't make music.
+			I play the keyboards, and have a Yamaha PSR-I455 for the purpose. Taking a music
+			break really helps when it comes to any task, and that's why I love music.
+			<br />
+			Why donut6150 though? The "donut" is completely random - I had no
+			idea what to use as a username, and for some reason "donut" sounded
+			really appropriate. "6150" is a reference to the Snapdragon 675 SoC.
+			<br />
+			I'm usually active on Discord when it comes to development. Feel
+			free to join the Developer Sanctuary Discord server and check out
+			the #donut-projects channel, if you want to see what I'm working
+			on next!<br /><br />
+			<sl-button
+				href="https://discord.gg/windows-apps-hub-714581497222398064"
+				variant="primary"
+				target="_blank"
+				rel="noopener noreferrer"
+				>Invite link (permanently valid)</sl-button
+			>
+		</div>
+	</sl-card>
+	<sl-card class="card-header">
+		<div slot="header">
+			<h2>GitHub statistics</h2>
+		</div>
+		<div style="overflow-x: auto;">
 			<table>
-				<tr>
-					<td>
-						<img src="https://github-readme-stats.vercel.app/api?username=donut6150&show_icons=true&theme=dark"
-						alt="GitHub stats"
-						style="width: auto !important; height: auto !important;"/>
-					</td>
-					<td>
-						<img src="https://github-readme-streak-stats.herokuapp.com?user=donut6150&theme=dark"
-						alt="GitHub Streak"
-						style="width: auto !important; height: auto !important;"/>
-					</td>
-					<td>
-						<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=donut6150&theme=dark"
-						alt="Most used languages"
-						style="width: auto !important; height: auto !important;"/></td>
-				</tr>
+				<tbody>
+					<tr>
+						<td>
+							<img src="https://github-readme-stats.vercel.app/api?username=donut6150&show_icons=true&theme=dark"
+							alt="GitHub stats"
+							style="width: auto !important; height: auto !important;"/>
+						</td>
+						<td>
+							<img src="https://github-readme-streak-stats.herokuapp.com?user=donut6150&theme=dark"
+							alt="GitHub Streak"
+							style="width: auto !important; height: auto !important;"/>
+						</td>
+						<td>
+							<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=donut6150&theme=dark"
+							alt="Most used languages"
+							style="width: auto !important; height: auto !important;"/></td>
+					</tr>
+				</tbody>
 			</table>
 		</div>
-	</div>
-	<div class="card">
-		<h2 class="pad bgs">Kernels</h2>
-		<div class="pad">
-			<Fluent.Button
+	</sl-card>
+	<sl-card class="card-header">
+		<div slot="header">
+			<h2>Kernels</h2>
+		</div>
+		<div>
+			<sl-button outline
 				style="margin: 2px 0;"
-				variant="standard"
+				variant="primary"
 				href="https://github.com/donut6150/kernel_samsung_universal7904"
 				target="_blank"
 				rel="noopener noreferrer"
@@ -80,13 +79,13 @@
 						style="width: 128px !important; height: 128px !important;"
 					/>
 					<figcaption class="ctext">
-						<Fluent.TextBlock>Samsung Galaxy A30s (universal7904, 4.4.177)</Fluent.TextBlock>
+						Samsung Galaxy A30s (universal7904, 4.4.177)
 					</figcaption>
 				</figure>
-			</Fluent.Button>
-			<Fluent.Button
+			</sl-button>
+			<sl-button outline
 				style="margin: 2px 0;"
-				variant="standard"
+				variant="primary"
 				href="https://github.com/donut6150/kernel_samsung_sm6150"
 				target="_blank"
 				rel="noopener noreferrer"
@@ -98,78 +97,66 @@
 						style="width: 128px !important; height: 128px !important;"
 					/>
 					<figcaption class="ctext">
-						<Fluent.TextBlock>Samsung Galaxy M40 (sm6150, 4.14.190)</Fluent.TextBlock>
+						Samsung Galaxy M40 (sm6150, 4.14.190)
 					</figcaption>
 				</figure>
-			</Fluent.Button>
+			</sl-button>
 		</div>
-	</div>
-	<div class="card">
-		<h2 class="pad bgs">GitHub projects</h2>
-		<div class="pad">
-			<Fluent.TextBlock>
-				<ul>
-					<li>
-						<Fluent.Button
-							variant="hyperlink"
-							href="Calculator"
-							target="_blank"
-							rel="noopener noreferrer">Calculator</Fluent.Button
-						>
-					</li>
-					<li>
-						<Fluent.Button
-							variant="hyperlink"
-							href="https://neonx.vercel.app"
-							target="_blank"
-							rel="noopener noreferrer">NeonX</Fluent.Button
-						>
-					</li>
-					<li>
-						<Fluent.Button
-							variant="hyperlink"
-							href="UWPDrawingCanvas"
-							target="_blank"
-							rel="noopener noreferrer"
-							>Drawing Canvas UWP</Fluent.Button
-						>
-					</li>
-					<li>
-						<Fluent.Button
-							variant="hyperlink"
-							href="DonutOS"
-							target="_blank"
-							rel="noopener noreferrer">DonutOS</Fluent.Button
-						>
-					</li>
-					<li>
-						<Fluent.Button
-							variant="hyperlink"
-							href="WinTranslate"
-							target="_blank"
-							rel="noopener noreferrer"
-							>WinTranslate</Fluent.Button
-						>
-					</li>
-					<li>
-						<Fluent.Button
-							variant="hyperlink"
-							href="DeleteInverter"
-							target="_blank"
-							rel="noopener noreferrer"
-							>DeleteInverter</Fluent.Button
-						>
-					</li>
-				</ul>
-			</Fluent.TextBlock>
+	</sl-card>
+	<sl-card class="card-header">
+		<div slot="header">
+			<h2>GitHub projects</h2>
 		</div>
-	</div>
-	<div class="card">
-		<h2 class="pad bgs">Socials</h2>
-		<div class="pad">
-			<Fluent.Button
+		<div>
+			<sl-button outline
+				variant="primary"
+				href="Calculator"
+				target="_blank"
+				rel="noopener noreferrer">Calculator</sl-button
+			>
+			<sl-button outline
+				variant="primary"
+				href="https://neonx.vercel.app"
+				target="_blank"
+				rel="noopener noreferrer">NeonX</sl-button
+			>
+			<sl-button outline
+				variant="primary"
+				href="UWPDrawingCanvas"
+				target="_blank"
+				rel="noopener noreferrer"
+				>Drawing Canvas UWP</sl-button
+			>
+			<sl-button outline
+				variant="primary"
+				href="DonutOS"
+				target="_blank"
+				rel="noopener noreferrer">DonutOS</sl-button
+			>
+			<sl-button outline
+				variant="primary"
+				href="WinTranslate"
+				target="_blank"
+				rel="noopener noreferrer"
+				>WinTranslate</sl-button
+			>
+			<sl-button outline
+				variant="primary"
+				href="DeleteInverter"
+				target="_blank"
+				rel="noopener noreferrer"
+				>DeleteInverter</sl-button
+			>
+		</div>
+	</sl-card>
+	<sl-card class="card-header">
+		<div slot="header">
+			<h2>Socials</h2>
+		</div>
+		<div>
+			<sl-button outline
 				style="margin: 2px 0;"
-				variant="standard"
+				variant="primary"
 				href="https://telegram.me/donut6150"
 				target="_blank"
 				rel="noopener noreferrer"
@@ -180,13 +167,13 @@
 						alt="Telegram"
 					/>
 					<figcaption class="ctext">
-						<Fluent.TextBlock>donut6150</Fluent.TextBlock>
+						donut6150
 					</figcaption>
 				</figure>
-			</Fluent.Button>
-			<Fluent.Button
+			</sl-button>
+			<sl-button outline
 				style="margin: 2px 0;"
-				variant="standard"
+				variant="primary"
 				href="https://discord.com/users/796351855181037569"
 				target="_blank"
 				rel="noopener noreferrer"
@@ -197,13 +184,13 @@
 						alt="Discord"
 					/>
 					<figcaption class="ctext">
-						<Fluent.TextBlock>donut.6150</Fluent.TextBlock>
+						donut.6150
 					</figcaption>
 				</figure>
-			</Fluent.Button>
-			<Fluent.Button
+			</sl-button>
+			<sl-button outline
 				style="margin: 2px 0;"
-				variant="standard"
+				variant="primary"
 				href="https://github.com/donut6150"
 				target="_blank"
 				rel="noopener noreferrer"
@@ -214,13 +201,13 @@
 						alt="Github"
 					/>
 					<figcaption class="ctext">
-						<Fluent.TextBlock>donut6150</Fluent.TextBlock>
+						donut6150
 					</figcaption>
 				</figure>
-			</Fluent.Button>
-			<Fluent.Button
+			</sl-button>
+			<sl-button outline
 				style="margin: 2px 0;"
-				variant="standard"
+				variant="primary"
 				href="https://youtube.com/@WalnutException"
 				target="_blank"
 				rel="noopener noreferrer"
@@ -231,13 +218,13 @@
 						alt="YouTube"
 					/>
 					<figcaption class="ctext">
-						<Fluent.TextBlock>@WalnutException</Fluent.TextBlock>
+						@WalnutException
 					</figcaption>
 				</figure>
-			</Fluent.Button>
-			<Fluent.Button
+			</sl-button>
+			<sl-button outline
 				style="margin: 2px 0;"
-				variant="standard"
+				variant="primary"
 				href="http://live.xbox.com/Profile?Gamertag=FireFox44039"
 				target="_blank"
 				rel="noopener noreferrer"
@@ -248,10 +235,10 @@
 						alt="Xbox"
 					/>
 					<figcaption class="ctext">
-						<Fluent.TextBlock>FireFox44039</Fluent.TextBlock>
+						FireFox44039
 					</figcaption>
 				</figure>
-			</Fluent.Button>
+			</sl-button>
 		</div>
-	</div>
+	</sl-card>
 </div>
