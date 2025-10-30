@@ -8,7 +8,7 @@
 		<div slot="header">
 			<h2>About me</h2>
 		</div>
-		<div style="font-size: var(--sl-font-size-medium);">
+		<div style="font-size: var(--sl-font-size-medium); line-height: 1.5;">
 			Someone learning C, C#, C++, Java, Python, and TypeScript. I plan to use Rust as well, soon.
 			<br />
 			I'm somewhat of a musician, although I don't make music. I play the keyboards, and have a Yamaha
@@ -87,7 +87,7 @@
 										style="width: 128px !important; height: 128px !important;"
 									/>
 									<figcaption class="ctext">
-										Samsung Galaxy A30s (universal7904, 4.4.177)
+										Samsung Galaxy A30s (universal7904, 4.4.302)
 									</figcaption>
 								</figure>
 							</sl-button>
